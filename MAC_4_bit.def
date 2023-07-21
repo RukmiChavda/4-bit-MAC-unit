@@ -1,0 +1,2103 @@
+VERSION 5.6 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN MAC_4_bit ;
+UNITS DISTANCE MICRONS 100 ;
+
+DIEAREA ( -720 -600 ) ( 33120 21900 ) ;
+
+TRACKS Y -600 DO 76 STEP 300 LAYER metal1 ;
+TRACKS X -720 DO 142 STEP 240 LAYER metal2 ;
+TRACKS Y -600 DO 76 STEP 300 LAYER metal3 ;
+
+END VIAS
+
+COMPONENTS 169 ;
+- _120_ XOR2X1 + PLACED ( 120 150 ) FS ;
+- _148_ OR2X2 + PLACED ( 1800 150 ) S ;
+- _121_ AND2X2 + PLACED ( 2760 150 ) FS ;
+- _119_ OR2X2 + PLACED ( 3720 150 ) FS ;
+- _123_ AND2X2 + PLACED ( 4680 150 ) S ;
+- _122_ XOR2X1 + PLACED ( 5640 150 ) S ;
+- _114_ OR2X2 + PLACED ( 7320 150 ) S ;
+- _5_ BUFX2 + PLACED ( 8280 150 ) S ;
+- _75_ XOR2X1 + PLACED ( 9000 150 ) S ;
+- _6_ BUFX2 + PLACED ( 10680 150 ) S ;
+- _76_ AND2X2 + PLACED ( 11400 150 ) FS ;
+- _15_ DFFSR + PLACED ( 12360 150 ) S ;
+- _77_ XOR2X1 + PLACED ( 17640 150 ) S ;
+- _78_ AND2X2 + PLACED ( 19320 150 ) FS ;
+- _74_ OR2X2 + PLACED ( 20280 150 ) FS ;
+- _80_ XOR2X1 + PLACED ( 21240 150 ) S ;
+- _83_ AND2X2 + PLACED ( 22920 150 ) FS ;
+- _81_ AND2X2 + PLACED ( 23880 150 ) FS ;
+- _79_ OR2X2 + PLACED ( 24840 150 ) FS ;
+- _30_ AND2X2 + PLACED ( 25800 150 ) S ;
+- _16_ DFFSR + PLACED ( 26760 150 ) FS ;
+- _149_ XOR2X1 + PLACED ( 120 3150 ) FN ;
+- _150_ AND2X2 + PLACED ( 1800 3150 ) N ;
+- _152_ AND2X2 + PLACED ( 2760 3150 ) FN ;
+- _151_ XOR2X1 + PLACED ( 3720 3150 ) FN ;
+- _115_ XOR2X1 + PLACED ( 5400 3150 ) FN ;
+- _116_ AND2X2 + PLACED ( 7080 3150 ) N ;
+- _118_ AND2X2 + PLACED ( 8040 3150 ) FN ;
+- _117_ XOR2X1 + PLACED ( 9000 3150 ) FN ;
+- _70_ XOR2X1 + PLACED ( 10680 3150 ) N ;
+- _71_ AND2X2 + PLACED ( 12360 3150 ) N ;
+- _73_ AND2X2 + PLACED ( 13320 3150 ) N ;
+- _69_ OR2X2 + PLACED ( 14280 3150 ) N ;
+- _46_ XOR2X1 + PLACED ( 15240 3150 ) N ;
+- _47_ AND2X2 + PLACED ( 16920 3150 ) N ;
+- _44_ XOR2X1 + PLACED ( 17880 3150 ) FN ;
+- _45_ AND2X2 + PLACED ( 19560 3150 ) N ;
+- _43_ OR2X2 + PLACED ( 20520 3150 ) N ;
+- _82_ XOR2X1 + PLACED ( 21480 3150 ) N ;
+- _49_ XOR2X1 + PLACED ( 23160 3150 ) N ;
+- _50_ AND2X2 + PLACED ( 24840 3150 ) N ;
+- _51_ XOR2X1 + PLACED ( 25800 3150 ) N ;
+- _52_ AND2X2 + PLACED ( 27480 3150 ) N ;
+- _48_ OR2X2 + PLACED ( 28440 3150 ) N ;
+- _53_ XOR2X1 + PLACED ( 29400 3150 ) FN ;
+- _3_ BUFX2 + PLACED ( 31080 3150 ) N ;
+- _7_ BUFX2 + PLACED ( 31800 3150 ) N ;
+- _93_ AND2X2 + PLACED ( 120 6150 ) FS ;
+- _135_ AND2X2 + PLACED ( 1080 6150 ) S ;
+- _144_ XOR2X1 + PLACED ( 2040 6150 ) S ;
+- _145_ AND2X2 + PLACED ( 3720 6150 ) FS ;
+- _143_ OR2X2 + PLACED ( 4680 6150 ) FS ;
+- _147_ AND2X2 + PLACED ( 5640 6150 ) S ;
+- _146_ XOR2X1 + PLACED ( 6600 6150 ) S ;
+- _109_ OR2X2 + PLACED ( 8280 6150 ) S ;
+- _39_ XOR2X1 + PLACED ( 9240 6150 ) FS ;
+- _40_ AND2X2 + PLACED ( 10920 6150 ) FS ;
+- _72_ XOR2X1 + PLACED ( 11880 6150 ) S ;
+- _4_ BUFX2 + PLACED ( 13560 6150 ) FS ;
+- _38_ OR2X2 + PLACED ( 14280 6150 ) FS ;
+- _42_ AND2X2 + PLACED ( 15240 6150 ) S ;
+- _41_ XOR2X1 + PLACED ( 16200 6150 ) S ;
+- _14_ DFFSR + PLACED ( 17880 6150 ) S ;
+- BUFX2_insert1 BUFX2 + PLACED ( 23160 6150 ) S ;
+- BUFX2_insert3 BUFX2 + PLACED ( 23880 6150 ) S ;
+- _32_ AND2X2 + PLACED ( 24600 6150 ) S ;
+- _17_ DFFSR + PLACED ( 25560 6150 ) S ;
+- _29_ XOR2X1 + PLACED ( 30840 6150 ) FS ;
+- _92_ AND2X2 + PLACED ( 120 9150 ) N ;
+- _134_ XOR2X1 + PLACED ( 1080 9150 ) FN ;
+- _94_ AND2X2 + PLACED ( 2760 9150 ) FN ;
+- _105_ AND2X2 + PLACED ( 3720 9150 ) FN ;
+- _106_ AND2X2 + PLACED ( 4680 9150 ) N ;
+- _102_ AND2X2 + PLACED ( 5640 9150 ) N ;
+- _110_ XOR2X1 + PLACED ( 6600 9150 ) FN ;
+- _111_ AND2X2 + PLACED ( 8280 9150 ) N ;
+- _113_ AND2X2 + PLACED ( 9240 9150 ) FN ;
+- _112_ XOR2X1 + PLACED ( 10200 9150 ) FN ;
+- _64_ OR2X2 + PLACED ( 11880 9150 ) FN ;
+- _66_ AND2X2 + PLACED ( 12840 9150 ) FN ;
+- _65_ XOR2X1 + PLACED ( 13800 9150 ) FN ;
+- _68_ AND2X2 + PLACED ( 15480 9150 ) FN ;
+- _67_ XOR2X1 + PLACED ( 16440 9150 ) FN ;
+- _33_ OR2X2 + PLACED ( 18120 9150 ) FN ;
+- _35_ AND2X2 + PLACED ( 19080 9150 ) FN ;
+- _34_ XOR2X1 + PLACED ( 20040 9150 ) FN ;
+- _37_ AND2X2 + PLACED ( 21720 9150 ) FN ;
+- _36_ XOR2X1 + PLACED ( 22680 9150 ) FN ;
+- _28_ OR2X2 + PLACED ( 24360 9150 ) FN ;
+- _31_ XOR2X1 + PLACED ( 25320 9150 ) N ;
+- _12_ DFFSR + PLACED ( 27000 9150 ) N ;
+- _132_ XOR2X1 + PLACED ( 120 12150 ) S ;
+- _133_ AND2X2 + PLACED ( 1800 12150 ) FS ;
+- _129_ OR2X2 + PLACED ( 2760 12150 ) FS ;
+- _101_ AND2X2 + PLACED ( 3720 12150 ) S ;
+- _139_ XOR2X1 + PLACED ( 4680 12150 ) S ;
+- _140_ AND2X2 + PLACED ( 6360 12150 ) FS ;
+- _98_ AND2X2 + PLACED ( 7320 12150 ) FS ;
+- _138_ OR2X2 + PLACED ( 8280 12150 ) S ;
+- _142_ AND2X2 + PLACED ( 9240 12150 ) S ;
+- _141_ XOR2X1 + PLACED ( 10200 12150 ) FS ;
+- _154_ AND2X2 + PLACED ( 11880 12150 ) S ;
+- _153_ XOR2X1 + PLACED ( 12840 12150 ) FS ;
+- _13_ DFFSR + PLACED ( 14520 12150 ) S ;
+- _59_ OR2X2 + PLACED ( 19800 12150 ) S ;
+- _61_ AND2X2 + PLACED ( 20760 12150 ) S ;
+- _63_ AND2X2 + PLACED ( 21720 12150 ) S ;
+- BUFX2_insert0 BUFX2 + PLACED ( 22680 12150 ) S ;
+- _60_ XOR2X1 + PLACED ( 23400 12150 ) S ;
+- _86_ OR2X2 + PLACED ( 25080 12150 ) FS ;
+- BUFX2_insert2 BUFX2 + PLACED ( 26040 12150 ) FS ;
+- _62_ XOR2X1 + PLACED ( 26760 12150 ) S ;
+- _54_ OR2X2 + PLACED ( 28440 12150 ) S ;
+- _58_ AND2X2 + PLACED ( 29400 12150 ) S ;
+- _8_ BUFX2 + PLACED ( 30360 12150 ) FS ;
+- _56_ AND2X2 + PLACED ( 31080 12150 ) S ;
+- _130_ XOR2X1 + PLACED ( 120 15150 ) N ;
+- _131_ AND2X2 + PLACED ( 1800 15150 ) N ;
+- _91_ AND2X2 + PLACED ( 2760 15150 ) FN ;
+- _95_ AND2X2 + PLACED ( 3720 15150 ) N ;
+- _128_ AND2X2 + PLACED ( 4680 15150 ) FN ;
+- _127_ XOR2X1 + PLACED ( 5640 15150 ) FN ;
+- _96_ AND2X2 + PLACED ( 7320 15150 ) N ;
+- _136_ XOR2X1 + PLACED ( 8280 15150 ) FN ;
+- _137_ AND2X2 + PLACED ( 9960 15150 ) N ;
+- _19_ XOR2X1 + PLACED ( 10920 15150 ) FN ;
+- _20_ AND2X2 + PLACED ( 12600 15150 ) N ;
+- _18_ OR2X2 + PLACED ( 13560 15150 ) N ;
+- _22_ AND2X2 + PLACED ( 14520 15150 ) FN ;
+- _21_ XOR2X1 + PLACED ( 15480 15150 ) FN ;
+- _27_ AND2X2 + PLACED ( 17160 15150 ) N ;
+- _23_ OR2X2 + PLACED ( 18120 15150 ) N ;
+- _26_ XOR2X1 + PLACED ( 19080 15150 ) FN ;
+- _84_ XOR2X1 + PLACED ( 20760 15150 ) FN ;
+- _85_ AND2X2 + PLACED ( 22440 15150 ) N ;
+- _90_ AND2X2 + PLACED ( 23400 15150 ) N ;
+- _88_ AND2X2 + PLACED ( 24360 15150 ) N ;
+- _87_ XOR2X1 + PLACED ( 25320 15150 ) FN ;
+- _89_ XOR2X1 + PLACED ( 27000 15150 ) N ;
+- _57_ XOR2X1 + PLACED ( 28680 15150 ) N ;
+- _55_ XOR2X1 + PLACED ( 30360 15150 ) FN ;
+- _104_ AND2X2 + PLACED ( 120 18150 ) FS ;
+- _103_ AND2X2 + PLACED ( 1080 18150 ) S ;
+- _125_ XOR2X1 + PLACED ( 2040 18150 ) S ;
+- _126_ AND2X2 + PLACED ( 3720 18150 ) FS ;
+- _124_ OR2X2 + PLACED ( 4680 18150 ) FS ;
+- _100_ AND2X2 + PLACED ( 5640 18150 ) S ;
+- _97_ AND2X2 + PLACED ( 6600 18150 ) FS ;
+- _99_ AND2X2 + PLACED ( 7560 18150 ) FS ;
+- _108_ AND2X2 + PLACED ( 8520 18150 ) FS ;
+- _107_ XOR2X1 + PLACED ( 9480 18150 ) S ;
+- _0_ BUFX2 + PLACED ( 11160 18150 ) S ;
+- _9_ DFFSR + PLACED ( 11880 18150 ) S ;
+- _24_ XOR2X1 + PLACED ( 17160 18150 ) S ;
+- _25_ AND2X2 + PLACED ( 18840 18150 ) S ;
+- _1_ BUFX2 + PLACED ( 19800 18150 ) S ;
+- _10_ DFFSR + PLACED ( 20520 18150 ) S ;
+- _11_ DFFSR + PLACED ( 25800 18150 ) FS ;
+- _2_ BUFX2 + PLACED ( 31080 18150 ) FS ;
+- FILL32040x150 FILL + PLACED ( 32040 150 ) S ;
+- FILL32280x150 FILL + PLACED ( 32280 150 ) S ;
+- FILL32280x9150 FILL + PLACED ( 32280 9150 ) N ;
+- FILL32040x12150 FILL + PLACED ( 32040 12150 ) S ;
+- FILL32280x12150 FILL + PLACED ( 32280 12150 ) S ;
+- FILL32040x15150 FILL + PLACED ( 32040 15150 ) N ;
+- FILL32280x15150 FILL + PLACED ( 32280 15150 ) N ;
+- FILL31800x18150 FILL + PLACED ( 31800 18150 ) S ;
+- FILL32040x18150 FILL + PLACED ( 32040 18150 ) S ;
+- FILL32280x18150 FILL + PLACED ( 32280 18150 ) S ;
+END COMPONENTS
+
+PINS 21 ;
+- gnd + NET gnd
+  + LAYER metal1 ( -480 0 ) ( 480 0 )
+  + PLACED ( 33150 60 ) N ;
+- vdd + NET vdd
+  + LAYER metal1 ( -480 0 ) ( 480 0 )
+  + PLACED ( -510 60 ) N ;
+- clk + NET clk
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 14640 21900 ) N ;
+- f[8] + NET f[8]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( 33120 13500 ) N ;
+- f[7] + NET f[7]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( 33120 4500 ) N ;
+- f[6] + NET f[6]
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 11040 -300 ) N ;
+- f[5] + NET f[5]
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 8640 -300 ) N ;
+- f[4] + NET f[4]
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 13920 -300 ) N ;
+- f[3] + NET f[3]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( 33120 5100 ) N ;
+- f[2] + NET f[2]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( 33120 19500 ) N ;
+- f[1] + NET f[1]
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 20160 21900 ) N ;
+- f[0] + NET f[0]
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 11520 21900 ) N ;
+- i[3] + NET i[3]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( -480 10800 ) N ;
+- i[2] + NET i[2]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( -480 7800 ) N ;
+- i[1] + NET i[1]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( -480 13800 ) N ;
+- i[0] + NET i[0]
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 7680 21900 ) N ;
+- j[3] + NET j[3]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( -480 8400 ) N ;
+- j[2] + NET j[2]
+  + LAYER metal3 ( -75 -75 ) ( 75 75 )
+  + PLACED ( -480 19500 ) N ;
+- j[1] + NET j[1]
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 8160 21900 ) N ;
+- j[0] + NET j[0]
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 6960 21900 ) N ;
+- rst + NET rst
+  + LAYER metal2 ( -45 -45 ) ( 45 45 )
+  + PLACED ( 16080 21900 ) N ;
+END PINS
+
+NETS 170 ;
+- \accmulator.buffer8.q\
+  ( _17_ Q ) 
+  ( BUFX2_insert0 A ) 
+  ( BUFX2_insert1 A ) 
+  ( BUFX2_insert2 A ) 
+  ( BUFX2_insert3 A ) 
++ ROUTED metal1 ( 25920 7200 ) M2_M1 
+  NEW metal2 ( 25920 7200 ) M3_M2 
+  NEW metal3 ( 25920 7200 ) ( 24480 * ) M3_M2 
+  NEW metal2 ( 24480 7200 ) ( * 7800 ) M2_M1 
+  NEW metal1 ( 23760 7800 ) M2_M1 
+  NEW metal2 ( 23760 7800 ) ( 24480 * ) 
+  NEW metal1 ( 23280 13800 ) ( 24000 * ) M2_M1 
+  NEW metal2 ( 24000 13800 ) ( * 12300 ) ( 24480 * ) ( * 7800 ) 
+  NEW metal1 ( 26160 13800 ) M2_M1 
+  NEW metal2 ( 26160 13800 ) M3_M2 
+  NEW metal3 ( 26160 13800 ) ( 24000 * ) M3_M2 ;
+- \accmulator.buffer8.q_bF$buf0\
+  ( _67_ A ) 
+  ( _72_ A ) 
+  ( _73_ A ) 
+  ( _68_ A ) 
+  ( BUFX2_insert3 Y ) 
++ ROUTED metal1 ( 18000 10200 ) M2_M1 
+  NEW metal2 ( 18000 10200 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 18000 9000 ) ( 24000 * ) M3_M2 
+  NEW metal2 ( 24000 9000 ) ( * 8100 ) M2_M1 
+  NEW metal1 ( 16320 10200 ) M2_M1 
+  NEW metal2 ( 16320 10200 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 16320 9000 ) ( 18000 * ) 
+  NEW metal1 ( 13440 8100 ) M2_M1 
+  NEW metal2 ( 13440 8100 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 13440 9000 ) ( 16320 * ) 
+  NEW metal1 ( 13440 4200 ) M2_M1 
+  NEW metal2 ( 13440 4200 ) ( * 8100 ) ;
+- \accmulator.buffer8.q_bF$buf1\
+  ( _58_ A ) 
+  ( _62_ A ) 
+  ( _57_ A ) 
+  ( _8_ A ) 
+  ( BUFX2_insert2 Y ) 
++ ROUTED metal1 ( 28320 14100 ) M2_M1 
+  NEW metal2 ( 28320 14100 ) ( * 13800 ) M3_M2 
+  NEW metal3 ( 28320 13800 ) ( 26640 * ) M3_M2 
+  NEW metal2 ( 26640 13800 ) ( * 14100 ) M2_M1 
+  NEW metal1 ( 30240 14100 ) M2_M1 
+  NEW metal2 ( 30240 14100 ) ( * 13800 ) M3_M2 
+  NEW metal3 ( 30240 13800 ) ( 28320 * ) 
+  NEW metal1 ( 30480 13800 ) M2_M1 
+  NEW metal2 ( 30480 13800 ) ( 30240 * ) 
+  NEW metal1 ( 28800 16200 ) M2_M1 
+  NEW metal2 ( 28800 16200 ) ( * 13800 ) M3_M2 ;
+- \accmulator.buffer8.q_bF$buf2\
+  ( _83_ A ) 
+  ( _78_ A ) 
+  ( _82_ A ) 
+  ( _77_ A ) 
+  ( BUFX2_insert1 Y ) 
++ ROUTED metal1 ( 21600 4200 ) M2_M1 
+  NEW metal2 ( 21600 4200 ) ( 21360 * ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 21360 6000 ) ( 23280 * ) M3_M2 
+  NEW metal2 ( 23280 6000 ) ( * 8100 ) M2_M1 
+  NEW metal1 ( 19440 2100 ) M2_M1 
+  NEW metal2 ( 19440 2100 ) ( 19680 * ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 19680 6000 ) ( 21360 * ) 
+  NEW metal1 ( 19200 2100 ) ( 19440 * ) 
+  NEW metal1 ( 23040 2100 ) M2_M1 
+  NEW metal2 ( 23040 2100 ) ( * 1800 ) M3_M2 
+  NEW metal3 ( 23040 1800 ) ( 19440 * ) M3_M2 
+  NEW metal2 ( 19440 1800 ) ( * 2100 ) ;
+- \accmulator.buffer8.q_bF$buf3\
+  ( _27_ A ) 
+  ( _63_ A ) 
+  ( _21_ A ) 
+  ( _22_ A ) 
+  ( _26_ A ) 
+  ( BUFX2_insert0 Y ) 
++ ROUTED metal1 ( 22560 14100 ) ( 22800 * ) 
+  NEW metal1 ( 20640 16200 ) M2_M1 
+  NEW metal2 ( 20640 16200 ) ( * 15000 ) M3_M2 
+  NEW metal3 ( 20640 15000 ) ( 22560 * ) M3_M2 
+  NEW metal2 ( 22560 15000 ) ( * 14100 ) M2_M1 
+  NEW metal1 ( 17280 16200 ) M2_M1 
+  NEW metal2 ( 17280 16200 ) ( * 15000 ) M3_M2 
+  NEW metal3 ( 17280 15000 ) ( 20640 * ) 
+  NEW metal1 ( 17040 16200 ) ( 17280 * ) 
+  NEW metal1 ( 15360 16200 ) M2_M1 
+  NEW metal2 ( 15360 16200 ) ( * 15000 ) M3_M2 
+  NEW metal3 ( 15360 15000 ) ( 17280 * ) ;
+- \accmulator.buffer0.q\
+  ( _9_ Q ) 
+  ( _20_ A ) 
+  ( _19_ A ) 
+  ( _0_ A ) 
++ ROUTED metal1 ( 12240 19200 ) ( 12000 * ) M2_M1 
+  NEW metal2 ( 12000 19200 ) ( * 19800 ) M2_M1 
+  NEW metal1 ( 12000 19800 ) ( 11760 * ) 
+  NEW metal1 ( 12480 16200 ) M2_M1 
+  NEW metal2 ( 12480 16200 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 12480 16800 ) ( 12000 * ) M3_M2 
+  NEW metal2 ( 12000 16800 ) ( * 19200 ) 
+  NEW metal1 ( 12720 16200 ) ( 12480 * ) ;
+- f[0]
+  ( PIN f[0] ) 
+  ( _0_ Y ) 
++ ROUTED metal2 ( 11520 21900 ) ( 11280 * ) ( * 20100 ) M2_M1 ;
+- i[1]
+  ( PIN i[1] ) 
+  ( _97_ A ) 
+  ( _92_ B ) 
+  ( _104_ A ) 
+  ( _100_ A ) 
++ ROUTED metal1 ( 6720 20100 ) ( 6480 * ) 
+  NEW metal1 ( 240 20100 ) M2_M1 
+  NEW metal2 ( 240 20100 ) ( * 20400 ) M3_M2 
+  NEW metal3 ( 240 20400 ) ( 6480 * ) M3_M2 
+  NEW metal2 ( 6480 20400 ) ( * 20100 ) M2_M1 
+  NEW metal1 ( 480 10500 ) M2_M1 
+  NEW metal2 ( 480 10500 ) ( * 13200 ) M3_M2 
+  NEW metal3 ( 480 13200 ) ( 2400 * ) M3_M2 
+  NEW metal2 ( 2400 13200 ) ( * 18000 ) M3_M2 
+  NEW metal3 ( 2400 18000 ) ( 240 * ) M3_M2 
+  NEW metal2 ( 240 18000 ) ( * 20100 ) 
+  NEW metal3 ( -479 13800 ) ( * 13200 ) ( 480 * ) ;
+- j[1]
+  ( PIN j[1] ) 
+  ( _99_ B ) 
+  ( _102_ B ) 
+  ( _101_ B ) 
+  ( _100_ B ) 
++ ROUTED metal1 ( 7920 19800 ) M2_M1 
+  NEW metal2 ( 7920 19800 ) M3_M2 
+  NEW metal3 ( 7920 19800 ) ( 6240 * ) M3_M2 
+  NEW metal1 ( 6240 19800 ) M2_M1 
+  NEW metal2 ( 8160 21900 ) ( 7920 * ) ( * 19800 ) 
+  NEW metal1 ( 6000 10500 ) M2_M1 
+  NEW metal2 ( 6000 10500 ) ( * 12000 ) M3_M2 
+  NEW metal3 ( 6000 12000 ) ( 7920 * ) M3_M2 
+  NEW metal2 ( 7920 12000 ) ( * 19800 ) 
+  NEW metal1 ( 4320 13800 ) M2_M1 
+  NEW metal2 ( 4320 13800 ) M3_M2 
+  NEW metal3 ( 4320 13800 ) ( 6240 * ) M3_M2 
+  NEW metal2 ( 6240 13800 ) ( * 12000 ) ( 6000 * ) ;
+- \multiply.adder2.adder1.b\
+  ( _126_ A ) 
+  ( _125_ A ) 
+  ( _100_ Y ) 
++ ROUTED metal1 ( 3840 20100 ) M2_M1 
+  NEW metal2 ( 3840 20100 ) ( * 19800 ) M3_M2 
+  NEW metal3 ( 3840 19800 ) ( 5760 * ) M3_M2 
+  NEW metal1 ( 5760 19800 ) M2_M1 
+  NEW metal1 ( 3600 20100 ) ( 3840 * ) ;
+- i[2]
+  ( PIN i[2] ) 
+  ( _95_ A ) 
+  ( _93_ B ) 
+  ( _105_ A ) 
+  ( _101_ A ) 
++ ROUTED metal1 ( 4560 10200 ) M2_M1 
+  NEW metal2 ( 4560 10200 ) ( * 14100 ) M2_M1 
+  NEW metal1 ( 3840 16200 ) M2_M1 
+  NEW metal2 ( 3840 16200 ) ( 4080 * ) ( * 15600 ) M3_M2 
+  NEW metal3 ( 4080 15600 ) ( 4560 * ) M3_M2 
+  NEW metal2 ( 4560 15600 ) ( * 14100 ) 
+  NEW metal1 ( 480 7800 ) M2_M1 
+  NEW metal2 ( 480 7800 ) M3_M2 
+  NEW metal3 ( 480 7800 ) ( 2160 * ) ( * 8400 ) ( 2640 * ) ( * 8700 ) M3_M2 
+  NEW metal2 ( 2640 8700 ) ( 3360 * ) ( * 10200 ) M3_M2 
+  NEW metal3 ( 3360 10200 ) ( 4560 * ) M3_M2 
+  NEW metal3 ( -479 7800 ) ( * 7200 ) ( 480 * ) M3_M2 
+  NEW metal2 ( 480 7200 ) ( * 7800 ) ;
+- \multiply.adder3.adder2.b\
+  ( _133_ A ) 
+  ( _132_ A ) 
+  ( _101_ Y ) 
++ ROUTED metal1 ( 1680 14100 ) M2_M1 
+  NEW metal2 ( 1680 14100 ) ( * 15000 ) M3_M2 
+  NEW metal3 ( 1680 15000 ) ( 3840 * ) M3_M2 
+  NEW metal2 ( 3840 15000 ) ( * 13800 ) M2_M1 
+  NEW metal1 ( 1920 14100 ) ( 1680 * ) ;
+- i[3]
+  ( PIN i[3] ) 
+  ( _98_ A ) 
+  ( _94_ B ) 
+  ( _106_ A ) 
+  ( _102_ A ) 
++ ROUTED metal1 ( 4800 10200 ) M2_M1 
+  NEW metal2 ( 4800 10200 ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 4800 11400 ) ( 5760 * ) M3_M2 
+  NEW metal2 ( 5760 11400 ) ( * 10200 ) M2_M1 
+  NEW metal1 ( 3360 10500 ) M2_M1 
+  NEW metal2 ( 3360 10500 ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 3360 11400 ) ( 4800 * ) 
+  NEW metal1 ( 7440 14100 ) M2_M1 
+  NEW metal2 ( 7440 14100 ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 7440 11400 ) ( 5760 * ) 
+  NEW metal3 ( -479 10800 ) ( * 11400 ) ( 3360 * ) ;
+- \multiply.adder7.adder2.b\
+  ( _147_ A ) 
+  ( _146_ A ) 
+  ( _102_ Y ) 
++ ROUTED metal1 ( 6480 8100 ) M2_M1 
+  NEW metal2 ( 6480 8100 ) ( * 10500 ) M2_M1 
+  NEW metal1 ( 8160 8100 ) M2_M1 
+  NEW metal2 ( 8160 8100 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 8160 9000 ) ( 6480 * ) M3_M2 ;
+- i[0]
+  ( PIN i[0] ) 
+  ( _99_ A ) 
+  ( _96_ A ) 
+  ( _91_ B ) 
+  ( _103_ A ) 
++ ROUTED metal1 ( 3360 16500 ) M2_M1 
+  NEW metal2 ( 3360 16500 ) ( * 19200 ) M3_M2 
+  NEW metal3 ( 3360 19200 ) ( 1920 * ) M3_M2 
+  NEW metal2 ( 1920 19200 ) ( * 20100 ) M2_M1 
+  NEW metal2 ( 7680 21900 ) ( * 19200 ) M3_M2 
+  NEW metal3 ( 7680 19200 ) ( 3360 * ) 
+  NEW metal1 ( 7680 20100 ) M2_M1 
+  NEW metal1 ( 7440 16200 ) M2_M1 
+  NEW metal2 ( 7440 16200 ) ( * 19200 ) ( 7680 * ) ;
+- j[2]
+  ( PIN j[2] ) 
+  ( _106_ B ) 
+  ( _105_ B ) 
+  ( _104_ B ) 
+  ( _103_ B ) 
++ ROUTED metal1 ( 480 19800 ) M2_M1 
+  NEW metal2 ( 480 19800 ) M3_M2 
+  NEW metal3 ( 480 19800 ) ( 1680 * ) M3_M2 
+  NEW metal1 ( 1680 19800 ) M2_M1 
+  NEW metal3 ( -479 19500 ) ( * 19200 ) ( 480 * ) M3_M2 
+  NEW metal2 ( 480 19200 ) ( * 19800 ) 
+  NEW metal1 ( 4320 10500 ) M2_M1 
+  NEW metal2 ( 4320 10500 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 4320 9600 ) ( 2160 * ) ( * 10200 ) ( 1680 * ) ( * 10500 ) M3_M2 
+  NEW metal2 ( 1680 10500 ) ( * 13800 ) M3_M2 
+  NEW metal3 ( 1680 13800 ) ( 2160 * ) ( * 14100 ) M3_M2 
+  NEW metal2 ( 2160 14100 ) ( * 16200 ) M3_M2 
+  NEW metal3 ( 2160 16200 ) ( 1680 * ) ( * 16500 ) M3_M2 
+  NEW metal2 ( 1680 16500 ) ( * 19800 ) 
+  NEW metal1 ( 5040 10500 ) M2_M1 
+  NEW metal2 ( 5040 10500 ) ( * 10800 ) M3_M2 
+  NEW metal3 ( 5040 10800 ) ( 4320 * ) M3_M2 
+  NEW metal2 ( 4320 10800 ) ( * 10500 ) ;
+- \multiply.adder2.a\
+  ( _126_ B ) 
+  ( _125_ B ) 
+  ( _103_ Y ) 
++ ROUTED metal1 ( 2160 20100 ) M2_M1 
+  NEW metal2 ( 2160 20100 ) ( * 20400 ) ( 1680 * ) ( * 21000 ) M3_M2 
+  NEW metal3 ( 1680 21000 ) ( 1200 * ) M3_M2 
+  NEW metal2 ( 1200 21000 ) ( * 19800 ) M2_M1 
+  NEW metal1 ( 4080 19800 ) M2_M1 
+  NEW metal2 ( 4080 19800 ) ( * 21000 ) ( 3840 * ) M3_M2 
+  NEW metal3 ( 3840 21000 ) ( 3360 * ) M3_M2 
+  NEW metal2 ( 3360 21000 ) ( 2880 * ) M3_M2 
+  NEW metal3 ( 2880 21000 ) ( 2160 * ) M3_M2 
+  NEW metal2 ( 2160 21000 ) ( * 20400 ) ;
+- \multiply.adder3.adder1.b\
+  ( _131_ A ) 
+  ( _130_ A ) 
+  ( _104_ Y ) 
++ ROUTED metal1 ( 1920 16200 ) M2_M1 
+  NEW metal2 ( 1920 16200 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 1920 16800 ) ( 960 * ) M3_M2 
+  NEW metal2 ( 960 16800 ) ( * 19800 ) M2_M1 
+  NEW metal1 ( 240 16200 ) M2_M1 
+  NEW metal2 ( 240 16200 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 240 17400 ) ( 720 * ) M3_M2 
+  NEW metal2 ( 720 17400 ) ( * 16800 ) ( 960 * ) ;
+- \multiply.adder4.b\
+  ( _135_ A ) 
+  ( _134_ A ) 
+  ( _105_ Y ) 
++ ROUTED metal1 ( 1920 8100 ) M2_M1 
+  NEW metal2 ( 1920 8100 ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 1920 7200 ) ( 3840 * ) M3_M2 
+  NEW metal2 ( 3840 7200 ) ( * 10500 ) M2_M1 
+  NEW metal1 ( 2640 10200 ) M2_M1 
+  NEW metal2 ( 2640 10200 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 2640 9000 ) ( 3600 * ) M3_M2 
+  NEW metal2 ( 3600 9000 ) ( 3840 * ) ;
+- \multiply.adder8.adder2.b\
+  ( _152_ A ) 
+  ( _151_ A ) 
+  ( _106_ Y ) 
++ ROUTED metal1 ( 5280 4200 ) M2_M1 
+  NEW metal2 ( 5280 4200 ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 5280 6600 ) ( 4800 * ) M3_M2 
+  NEW metal2 ( 4800 6600 ) ( * 8100 ) ( 4560 * ) ( * 8400 ) M3_M2 
+  NEW metal3 ( 4560 8400 ) ( 5040 * ) M3_M2 
+  NEW metal2 ( 5040 8400 ) ( * 10200 ) M3_M2 
+  NEW metal3 ( 5040 10200 ) ( 5520 * ) M3_M2 
+  NEW metal2 ( 5520 10200 ) ( * 10500 ) M2_M1 
+  NEW metal1 ( 3600 4200 ) M2_M1 
+  NEW metal2 ( 3600 4200 ) M3_M2 
+  NEW metal3 ( 3600 4200 ) ( 5280 * ) M3_M2 ;
+- \multiply.adder1.b\
+  ( _97_ Y ) 
+  ( _108_ A ) 
+  ( _107_ A ) 
++ ROUTED metal1 ( 8640 20100 ) M2_M1 
+  NEW metal2 ( 8640 20100 ) ( * 19800 ) M3_M2 
+  NEW metal3 ( 8640 19800 ) ( 11040 * ) M3_M2 
+  NEW metal2 ( 11040 19800 ) ( * 20100 ) M2_M1 
+  NEW metal1 ( 7440 19800 ) M2_M1 
+  NEW metal2 ( 7440 19800 ) ( * 20400 ) M3_M2 
+  NEW metal3 ( 7440 20400 ) ( 8640 * ) M3_M2 
+  NEW metal2 ( 8640 20400 ) ( * 20100 ) ;
+- \multiply.adder1.a\
+  ( _99_ Y ) 
+  ( _108_ B ) 
+  ( _107_ B ) 
++ ROUTED metal1 ( 8880 19800 ) M2_M1 
+  NEW metal2 ( 8880 19800 ) ( 9600 * ) ( * 20100 ) M2_M1 
+  NEW metal1 ( 8400 19800 ) M2_M1 
+  NEW metal2 ( 8400 19800 ) ( * 19500 ) ( 8880 * ) ( * 19800 ) ;
+- \adder.adder1.a\
+  ( _25_ B ) 
+  ( _24_ B ) 
+  ( _107_ Y ) 
++ ROUTED metal1 ( 17280 20100 ) M2_M1 
+  NEW metal2 ( 17280 20100 ) ( * 19200 ) M3_M2 
+  NEW metal3 ( 17280 19200 ) ( 10320 * ) M3_M2 
+  NEW metal2 ( 10320 19200 ) ( * 19800 ) M2_M1 
+  NEW metal1 ( 19440 19800 ) M2_M1 
+  NEW metal2 ( 19440 19800 ) ( 19200 * ) ( * 19500 ) ( 18960 * ) ( * 18900 ) ( 18240 * ) ( * 19200 ) M3_M2 
+  NEW metal3 ( 18240 19200 ) ( 17280 * ) ;
+- \multiply.adder1.carry\
+  ( _137_ A ) 
+  ( _136_ A ) 
+  ( _108_ Y ) 
++ ROUTED metal1 ( 10080 16200 ) M2_M1 
+  NEW metal2 ( 10080 16200 ) ( * 19800 ) M2_M1 
+  NEW metal1 ( 10080 19800 ) ( 9360 * ) 
+  NEW metal1 ( 9840 16200 ) ( 10080 * ) ;
+- \multiply.adder10.adder2.carry\
+  ( _113_ Y ) 
+  ( _109_ A ) 
++ ROUTED metal1 ( 9360 10500 ) M2_M1 
+  NEW metal2 ( 9360 10500 ) ( * 10200 ) ( 9120 * ) ( * 8400 ) M2_M1 ;
+- \multiply.adder10.adder1.carry\
+  ( _111_ Y ) 
+  ( _109_ B ) 
++ ROUTED metal1 ( 9120 10500 ) M2_M1 
+  NEW metal2 ( 9120 10500 ) ( 8880 * ) ( * 8100 ) M2_M1 ;
+- \multiply.adder10.carry\
+  ( _118_ A ) 
+  ( _117_ A ) 
+  ( _109_ Y ) 
++ ROUTED metal1 ( 8880 4200 ) M2_M1 
+  NEW metal2 ( 8880 4200 ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 8880 6000 ) ( 8400 * ) M3_M2 
+  NEW metal2 ( 8400 6000 ) ( * 7800 ) M2_M1 
+  NEW metal1 ( 10560 4200 ) M2_M1 
+  NEW metal2 ( 10560 4200 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 10560 4800 ) ( 8880 * ) M3_M2 ;
+- clk
+  ( PIN clk ) 
+  ( _9_ CLK ) 
+  ( _17_ CLK ) 
+  ( _16_ CLK ) 
+  ( _15_ CLK ) 
+  ( _14_ CLK ) 
+  ( _13_ CLK ) 
+  ( _12_ CLK ) 
+  ( _11_ CLK ) 
+  ( _10_ CLK ) 
++ ROUTED metal1 ( 28320 20400 ) M2_M1 
+  NEW metal2 ( 28320 20400 ) M3_M2 
+  NEW metal3 ( 28320 20400 ) ( 23280 * ) M3_M2 
+  NEW metal1 ( 23280 20400 ) M2_M1 
+  NEW metal2 ( 14640 21900 ) ( * 20400 ) M3_M2 
+  NEW metal3 ( 14640 20400 ) ( 23280 * ) 
+  NEW metal1 ( 14640 20400 ) M2_M1 
+  NEW metal1 ( 17280 14400 ) M2_M1 
+  NEW metal2 ( 17280 14400 ) M3_M2 
+  NEW metal3 ( 17280 14400 ) ( 17760 * ) M3_M2 
+  NEW metal2 ( 17760 14400 ) ( * 18000 ) M3_M2 
+  NEW metal3 ( 17760 18000 ) ( 17040 * ) M3_M2 
+  NEW metal2 ( 17040 18000 ) ( * 20400 ) M3_M2 
+  NEW metal1 ( 20640 8400 ) M2_M1 
+  NEW metal2 ( 20640 8400 ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 20640 7200 ) ( 18720 * ) M3_M2 
+  NEW metal2 ( 18720 7200 ) ( * 10800 ) M3_M2 
+  NEW metal3 ( 18720 10800 ) ( 17280 * ) M3_M2 
+  NEW metal2 ( 17280 10800 ) ( * 14400 ) 
+  NEW metal1 ( 28320 8400 ) M2_M1 
+  NEW metal2 ( 28320 8400 ) ( * 7800 ) M3_M2 
+  NEW metal3 ( 28320 7800 ) ( 23520 * ) M3_M2 
+  NEW metal2 ( 23520 7800 ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 23520 6600 ) ( 20640 * ) M3_M2 
+  NEW metal2 ( 20640 6600 ) ( * 7200 ) 
+  NEW metal1 ( 29520 9900 ) M2_M1 
+  NEW metal2 ( 29520 9900 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 29520 9600 ) ( 28080 * ) M3_M2 
+  NEW metal2 ( 28080 9600 ) ( * 9300 ) ( 28320 * ) ( * 8400 ) 
+  NEW metal1 ( 29280 2400 ) M2_M1 
+  NEW metal2 ( 29280 2400 ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 29280 3600 ) ( 28320 * ) M3_M2 
+  NEW metal2 ( 28320 3600 ) ( 28080 * ) ( * 4800 ) ( 28320 * ) ( * 7800 ) 
+  NEW metal1 ( 15120 2400 ) M2_M1 
+  NEW metal2 ( 15120 2400 ) ( * 600 ) M3_M2 
+  NEW metal3 ( 15120 600 ) ( 15600 * ) M3_M2 
+  NEW metal2 ( 15600 600 ) ( 15840 * ) ( * 300 ) ( 16080 * ) M3_M2 
+  NEW metal3 ( 16080 300 ) ( * 600 ) ( 17520 * ) M3_M2 
+  NEW metal2 ( 17520 600 ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 17520 7200 ) ( 18240 * ) M3_M2 
+  NEW metal2 ( 18240 7200 ) ( 18720 * ) ;
+- \accmulator.buffer1.d\
+  ( _84_ Y ) 
+  ( _10_ D ) 
++ ROUTED metal1 ( 21600 16500 ) M2_M1 
+  NEW metal2 ( 21600 16500 ) ( * 18000 ) M3_M2 
+  NEW metal3 ( 21600 18000 ) ( 23760 * ) M3_M2 
+  NEW metal2 ( 23760 18000 ) ( * 20100 ) M2_M1 ;
+- \accmulator.buffer1.q\
+  ( _25_ A ) 
+  ( _24_ A ) 
+  ( _1_ A ) 
+  ( _10_ Q ) 
++ ROUTED metal1 ( 20400 19800 ) ( 20640 * ) M2_M1 
+  NEW metal2 ( 20640 19800 ) ( * 19200 ) M2_M1 
+  NEW metal1 ( 20640 19200 ) ( 20880 * ) 
+  NEW metal1 ( 19680 20100 ) M2_M1 
+  NEW metal2 ( 19680 20100 ) ( * 19200 ) M3_M2 
+  NEW metal3 ( 19680 19200 ) ( 20640 * ) M3_M2 
+  NEW metal1 ( 18720 20100 ) M2_M1 
+  NEW metal2 ( 18720 20100 ) ( * 19200 ) M3_M2 
+  NEW metal3 ( 18720 19200 ) ( 19680 * ) ;
+- rst
+  ( PIN rst ) 
+  ( _9_ R ) 
+  ( _17_ R ) 
+  ( _16_ R ) 
+  ( _15_ R ) 
+  ( _14_ R ) 
+  ( _13_ R ) 
+  ( _12_ R ) 
+  ( _11_ R ) 
+  ( _10_ R ) 
++ ROUTED metal1 ( 26880 19800 ) M2_M1 
+  NEW metal2 ( 26880 19800 ) M3_M2 
+  NEW metal3 ( 26880 19800 ) ( 24720 * ) M3_M2 
+  NEW metal1 ( 24720 19800 ) M2_M1 
+  NEW metal1 ( 16080 19800 ) M2_M1 
+  NEW metal2 ( 16080 19800 ) M3_M2 
+  NEW metal3 ( 16080 19800 ) ( 24720 * ) 
+  NEW metal2 ( 16080 21900 ) ( * 19800 ) 
+  NEW metal1 ( 18720 13800 ) M2_M1 
+  NEW metal2 ( 18720 13800 ) ( * 18600 ) M3_M2 
+  NEW metal3 ( 18720 18600 ) ( 18000 * ) M3_M2 
+  NEW metal2 ( 18000 18600 ) ( * 19800 ) M3_M2 
+  NEW metal1 ( 22080 7800 ) M2_M1 
+  NEW metal2 ( 22080 7800 ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 22080 7200 ) ( 22800 * ) M3_M2 
+  NEW metal2 ( 22800 7200 ) ( * 13800 ) M3_M2 
+  NEW metal3 ( 22800 13800 ) ( 22080 * ) M3_M2 
+  NEW metal2 ( 22080 13800 ) ( * 14400 ) M3_M2 
+  NEW metal3 ( 22080 14400 ) ( 18720 * ) M3_M2 
+  NEW metal1 ( 28080 10500 ) M2_M1 
+  NEW metal2 ( 28080 10500 ) ( * 10800 ) M3_M2 
+  NEW metal3 ( 28080 10800 ) ( 22800 * ) M3_M2 
+  NEW metal1 ( 29760 7800 ) M2_M1 
+  NEW metal2 ( 29760 7800 ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 29760 6000 ) ( 29040 * ) M3_M2 
+  NEW metal2 ( 29040 6000 ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 29040 6600 ) ( 28080 * ) M3_M2 
+  NEW metal2 ( 28080 6600 ) ( * 6300 ) ( 27600 * ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 27600 5400 ) ( 26880 * ) M3_M2 
+  NEW metal2 ( 26880 5400 ) ( * 6900 ) ( 27120 * ) ( * 10800 ) M3_M2 
+  NEW metal1 ( 27840 1800 ) M2_M1 
+  NEW metal2 ( 27840 1800 ) ( * 4200 ) M3_M2 
+  NEW metal3 ( 27840 4200 ) ( 28800 * ) M3_M2 
+  NEW metal2 ( 28800 4200 ) ( * 6600 ) ( 29040 * ) 
+  NEW metal1 ( 16560 1800 ) M2_M1 
+  NEW metal2 ( 16560 1800 ) M3_M2 
+  NEW metal3 ( 16560 1800 ) ( 17280 * ) M3_M2 
+  NEW metal2 ( 17280 1800 ) ( * 2400 ) M3_M2 
+  NEW metal3 ( 17280 2400 ) ( 19920 * ) M3_M2 
+  NEW metal2 ( 19920 2400 ) ( * 2700 ) ( 20160 * ) ( * 5100 ) ( 19920 * ) ( * 6300 ) ( 19440 * ) ( * 14400 ) M3_M2 ;
+- vdd
+  ( _9_ S ) 
+  ( _17_ S ) 
+  ( _16_ S ) 
+  ( _15_ S ) 
+  ( _14_ S ) 
+  ( _13_ S ) 
+  ( _12_ S ) 
+  ( _11_ S ) 
+  ( _10_ S ) 
++ ROUTED metal1 ( 25200 18600 ) M2_M1 
+  NEW metal2 ( 25200 18600 ) ( * 19500 ) M2_M1 
+  NEW metal1 ( 26400 18600 ) M2_M1 
+  NEW metal2 ( 26400 18600 ) ( * 19500 ) M2_M1 
+  NEW metal1 ( 27600 11700 ) M2_M1 
+  NEW metal2 ( 27600 11700 ) ( * 10800 ) M2_M1 
+  NEW metal1 ( 19200 12600 ) M2_M1 
+  NEW metal2 ( 19200 12600 ) ( * 13500 ) M2_M1 
+  NEW metal1 ( 22560 6600 ) M2_M1 
+  NEW metal2 ( 22560 6600 ) ( * 7500 ) M2_M1 
+  NEW metal1 ( 17040 600 ) M2_M1 
+  NEW metal2 ( 17040 600 ) ( * 1500 ) M2_M1 
+  NEW metal1 ( 27360 600 ) M2_M1 
+  NEW metal2 ( 27360 600 ) ( * 1500 ) M2_M1 
+  NEW metal1 ( 30240 6600 ) M2_M1 
+  NEW metal2 ( 30240 6600 ) ( * 7500 ) M2_M1 
+  NEW metal1 ( 16560 18600 ) M2_M1 
+  NEW metal2 ( 16560 18600 ) ( * 19500 ) M2_M1 ;
+- \multiply.adder10.adder1.b\
+  ( _138_ Y ) 
+  ( _111_ A ) 
+  ( _110_ A ) 
++ ROUTED metal1 ( 8400 10200 ) ( 8160 * ) 
+  NEW metal1 ( 8400 13800 ) M2_M1 
+  NEW metal2 ( 8400 13800 ) ( * 10200 ) M2_M1 ;
+- \multiply.adder10.a\
+  ( _146_ Y ) 
+  ( _111_ B ) 
+  ( _110_ B ) 
++ ROUTED metal1 ( 8640 10500 ) M2_M1 
+  NEW metal2 ( 8640 10500 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 8640 9600 ) ( 6720 * ) M3_M2 
+  NEW metal2 ( 6720 9600 ) ( * 10200 ) M2_M1 
+  NEW metal1 ( 7440 7800 ) M2_M1 
+  NEW metal2 ( 7440 7800 ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 7440 7200 ) ( 8640 * ) M3_M2 
+  NEW metal2 ( 8640 7200 ) ( * 9600 ) ;
+- \multiply.adder10.adder1.sum\
+  ( _113_ B ) 
+  ( _112_ B ) 
+  ( _110_ Y ) 
++ ROUTED metal1 ( 9840 10500 ) M2_M1 
+  NEW metal2 ( 9840 10500 ) ( * 10200 ) M3_M2 
+  NEW metal3 ( 9840 10200 ) ( 7440 * ) ( * 10500 ) M3_M2 
+  NEW metal1 ( 7440 10500 ) M2_M1 
+  NEW metal1 ( 10320 10200 ) M2_M1 
+  NEW metal2 ( 10320 10200 ) M3_M2 
+  NEW metal3 ( 10320 10200 ) ( 9840 * ) ;
+- \multiply.adder10.adder2.b\
+  ( _154_ Y ) 
+  ( _113_ A ) 
+  ( _112_ A ) 
++ ROUTED metal1 ( 12000 13800 ) M2_M1 
+  NEW metal2 ( 12000 13800 ) ( * 13500 ) ( 11760 * ) ( * 10200 ) M2_M1 
+  NEW metal1 ( 10080 10200 ) M2_M1 
+  NEW metal2 ( 10080 10200 ) ( * 12000 ) M3_M2 
+  NEW metal3 ( 10080 12000 ) ( 11760 * ) M3_M2 ;
+- \adder.adder4.a\
+  ( _66_ B ) 
+  ( _65_ B ) 
+  ( _112_ Y ) 
++ ROUTED metal1 ( 13440 10500 ) M2_M1 
+  NEW metal2 ( 13440 10500 ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 13440 11400 ) ( 11040 * ) M3_M2 
+  NEW metal2 ( 11040 11400 ) ( * 10500 ) M2_M1 
+  NEW metal1 ( 13920 10200 ) M2_M1 
+  NEW metal2 ( 13920 10200 ) ( * 10800 ) M3_M2 
+  NEW metal3 ( 13920 10800 ) ( 13440 * ) M3_M2 ;
+- \multiply.adder11.adder2.carry\
+  ( _118_ Y ) 
+  ( _114_ A ) 
++ ROUTED metal1 ( 8160 4500 ) M2_M1 
+  NEW metal2 ( 8160 4500 ) ( * 2400 ) M2_M1 ;
+- \multiply.adder11.adder1.carry\
+  ( _116_ Y ) 
+  ( _114_ B ) 
++ ROUTED metal1 ( 7920 4500 ) M2_M1 
+  NEW metal2 ( 7920 4500 ) ( * 2100 ) M2_M1 ;
+- \multiply.adder11.carry\
+  ( _123_ A ) 
+  ( _122_ A ) 
+  ( _114_ Y ) 
++ ROUTED metal1 ( 7200 2100 ) ( * 1800 ) ( 7440 * ) 
+  NEW metal1 ( 5520 2100 ) M2_M1 
+  NEW metal2 ( 5520 2100 ) ( * 1800 ) M3_M2 
+  NEW metal3 ( 5520 1800 ) ( 7200 * ) M3_M2 
+  NEW metal1 ( 7200 1800 ) M2_M1 ;
+- \multiply.adder11.adder1.b\
+  ( _143_ Y ) 
+  ( _116_ A ) 
+  ( _115_ A ) 
++ ROUTED metal1 ( 7200 4200 ) ( 6960 * ) 
+  NEW metal1 ( 5520 7800 ) M2_M1 
+  NEW metal2 ( 5520 7800 ) ( * 6900 ) ( 5760 * ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 5760 6600 ) ( 6960 * ) M3_M2 
+  NEW metal2 ( 6960 6600 ) ( * 4200 ) M2_M1 ;
+- \multiply.adder11.a\
+  ( _151_ Y ) 
+  ( _116_ B ) 
+  ( _115_ B ) 
++ ROUTED metal1 ( 4560 4500 ) M2_M1 
+  NEW metal2 ( 4560 4500 ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 4560 5400 ) ( 5520 * ) M3_M2 
+  NEW metal2 ( 5520 5400 ) ( * 4200 ) M2_M1 
+  NEW metal1 ( 7440 4500 ) M2_M1 
+  NEW metal2 ( 7440 4500 ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 7440 3600 ) ( 5520 * ) M3_M2 
+  NEW metal2 ( 5520 3600 ) ( * 4200 ) ;
+- \multiply.adder11.adder1.sum\
+  ( _118_ B ) 
+  ( _117_ B ) 
+  ( _115_ Y ) 
++ ROUTED metal1 ( 8640 4500 ) M2_M1 
+  NEW metal2 ( 8640 4500 ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 8640 5400 ) ( 6240 * ) M3_M2 
+  NEW metal2 ( 6240 5400 ) ( * 4500 ) M2_M1 
+  NEW metal1 ( 9120 4200 ) M2_M1 
+  NEW metal2 ( 9120 4200 ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 9120 5400 ) ( 8640 * ) ;
+- \adder.adder5.a\
+  ( _71_ B ) 
+  ( _70_ B ) 
+  ( _117_ Y ) 
++ ROUTED metal1 ( 12240 4200 ) M2_M1 
+  NEW metal2 ( 12240 4200 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 12240 4800 ) ( 11280 * ) M3_M2 
+  NEW metal2 ( 11280 4800 ) ( * 5100 ) ( 9840 * ) ( * 4500 ) M2_M1 
+  NEW metal1 ( 12720 4500 ) M2_M1 
+  NEW metal2 ( 12720 4500 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 12720 4800 ) ( 12240 * ) ;
+- \multiply.adder12.adder2.carry\
+  ( _123_ Y ) 
+  ( _119_ A ) 
++ ROUTED metal1 ( 4800 1800 ) M2_M1 
+  NEW metal2 ( 4800 1800 ) M3_M2 
+  NEW metal3 ( 4800 1800 ) ( 3840 * ) M3_M2 
+  NEW metal2 ( 3840 1800 ) ( * 2400 ) M2_M1 ;
+- \multiply.adder12.adder1.carry\
+  ( _121_ Y ) 
+  ( _119_ B ) 
++ ROUTED metal1 ( 3600 1800 ) M2_M1 
+  NEW metal2 ( 3600 1800 ) ( * 1500 ) ( 4080 * ) ( * 2100 ) M2_M1 ;
+- \adder.adder7.a\
+  ( _81_ B ) 
+  ( _80_ B ) 
+  ( _119_ Y ) 
++ ROUTED metal1 ( 21360 2100 ) M2_M1 
+  NEW metal2 ( 21360 2100 ) ( * 1200 ) M3_M2 
+  NEW metal3 ( 21360 1200 ) ( 20880 * ) M3_M2 
+  NEW metal2 ( 20880 1200 ) ( 20640 * ) ( * 600 ) M3_M2 
+  NEW metal3 ( 20640 600 ) ( 20160 * ) M3_M2 
+  NEW metal2 ( 20160 600 ) ( 19920 * ) ( * 300 ) ( 16800 * ) ( * 2400 ) M3_M2 
+  NEW metal3 ( 16800 2400 ) ( 15600 * ) ( * 1800 ) ( 13680 * ) M3_M2 
+  NEW metal2 ( 13680 1800 ) ( * 600 ) M3_M2 
+  NEW metal3 ( 13680 600 ) ( 12480 * ) M3_M2 
+  NEW metal2 ( 12480 600 ) ( 12240 * ) ( * 300 ) ( 11760 * ) ( * 1200 ) M3_M2 
+  NEW metal3 ( 11760 1200 ) ( 4560 * ) M3_M2 
+  NEW metal2 ( 4560 1200 ) ( * 1800 ) M2_M1 
+  NEW metal1 ( 24240 1800 ) M2_M1 
+  NEW metal2 ( 24240 1800 ) M3_M2 
+  NEW metal3 ( 24240 1800 ) ( 23520 * ) M3_M2 
+  NEW metal2 ( 23520 1800 ) ( * 2700 ) ( 23280 * ) ( * 3000 ) M3_M2 
+  NEW metal3 ( 23280 3000 ) ( 21360 * ) M3_M2 
+  NEW metal2 ( 21360 3000 ) ( * 2100 ) ;
+- \accmulator.buffer2.d\
+  ( _89_ Y ) 
+  ( _11_ D ) 
++ ROUTED metal1 ( 27840 16500 ) M2_M1 
+  NEW metal2 ( 27840 16500 ) ( * 20100 ) M2_M1 ;
+- \accmulator.buffer2.q\
+  ( _56_ A ) 
+  ( _55_ A ) 
+  ( _2_ A ) 
+  ( _11_ Q ) 
++ ROUTED metal1 ( 31200 19800 ) ( 30960 * ) M2_M1 
+  NEW metal2 ( 30960 19800 ) ( * 19200 ) M2_M1 
+  NEW metal1 ( 30960 19200 ) ( 30720 * ) 
+  NEW metal1 ( 31920 16200 ) M2_M1 
+  NEW metal2 ( 31920 16200 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 31920 17400 ) ( 30960 * ) M3_M2 
+  NEW metal2 ( 30960 17400 ) ( * 19200 ) 
+  NEW metal1 ( 31920 14100 ) M2_M1 
+  NEW metal2 ( 31920 14100 ) ( * 16200 ) ;
+- \multiply.adder12.adder1.b\
+  ( _148_ Y ) 
+  ( _121_ A ) 
+  ( _120_ A ) 
++ ROUTED metal1 ( 1920 1800 ) M2_M1 
+  NEW metal2 ( 1920 1800 ) M3_M2 
+  NEW metal3 ( 1920 1800 ) ( 240 * ) M3_M2 
+  NEW metal2 ( 240 1800 ) ( * 2100 ) M2_M1 
+  NEW metal1 ( 2880 2100 ) M2_M1 
+  NEW metal2 ( 2880 2100 ) ( * 1800 ) M3_M2 
+  NEW metal3 ( 2880 1800 ) ( 1920 * ) ;
+- \multiply.adder12.a\
+  ( _94_ Y ) 
+  ( _121_ B ) 
+  ( _120_ B ) 
++ ROUTED metal1 ( 3120 1800 ) M2_M1 
+  NEW metal2 ( 3120 1800 ) ( * 3000 ) M3_M2 
+  NEW metal3 ( 3120 3000 ) ( 1680 * ) M3_M2 
+  NEW metal2 ( 1680 3000 ) ( * 2100 ) M2_M1 
+  NEW metal1 ( 2880 10500 ) M2_M1 
+  NEW metal2 ( 2880 10500 ) ( * 13200 ) M3_M2 
+  NEW metal3 ( 2880 13200 ) ( 5040 * ) M3_M2 
+  NEW metal2 ( 5040 13200 ) ( 5280 * ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 5280 9600 ) ( 4800 * ) M3_M2 
+  NEW metal2 ( 4800 9600 ) ( 4560 * ) ( * 9300 ) ( 4320 * ) ( * 7800 ) M3_M2 
+  NEW metal3 ( 4320 7800 ) ( 3600 * ) M3_M2 
+  NEW metal2 ( 3600 7800 ) ( * 7200 ) ( 3120 * ) ( * 3000 ) ;
+- \multiply.adder12.adder1.sum\
+  ( _123_ B ) 
+  ( _122_ B ) 
+  ( _120_ Y ) 
++ ROUTED metal1 ( 5280 1800 ) M2_M1 
+  NEW metal2 ( 5280 1800 ) ( * 2400 ) M3_M2 
+  NEW metal3 ( 5280 2400 ) ( 3360 * ) M3_M2 
+  NEW metal2 ( 3360 2400 ) ( * 1200 ) M3_M2 
+  NEW metal3 ( 3360 1200 ) ( 1680 * ) M3_M2 
+  NEW metal2 ( 1680 1200 ) ( * 1800 ) M2_M1 
+  NEW metal1 ( 1680 1800 ) ( 960 * ) 
+  NEW metal1 ( 5760 2100 ) M2_M1 
+  NEW metal2 ( 5760 2100 ) ( * 2400 ) ( 5280 * ) ;
+- \adder.adder6.a\
+  ( _76_ B ) 
+  ( _75_ B ) 
+  ( _122_ Y ) 
++ ROUTED metal1 ( 9120 2100 ) M2_M1 
+  NEW metal2 ( 9120 2100 ) ( * 2400 ) M3_M2 
+  NEW metal3 ( 9120 2400 ) ( 7440 * ) M3_M2 
+  NEW metal2 ( 7440 2400 ) ( * 1500 ) ( 7200 * ) ( * 1200 ) ( 6480 * ) ( * 1800 ) M2_M1 
+  NEW metal1 ( 11760 1800 ) M2_M1 
+  NEW metal2 ( 11760 1800 ) ( * 2400 ) M3_M2 
+  NEW metal3 ( 11760 2400 ) ( 9840 * ) ( * 1800 ) ( 9120 * ) M3_M2 
+  NEW metal2 ( 9120 1800 ) ( * 2100 ) ;
+- \multiply.adder2.adder2.carry\
+  ( _128_ Y ) 
+  ( _124_ A ) 
++ ROUTED metal1 ( 4800 16500 ) M2_M1 
+  NEW metal2 ( 4800 16500 ) ( * 20400 ) M2_M1 ;
+- \multiply.adder2.adder1.carry\
+  ( _126_ Y ) 
+  ( _124_ B ) 
++ ROUTED metal1 ( 4560 19800 ) M2_M1 
+  NEW metal2 ( 4560 19800 ) ( * 20700 ) ( 5040 * ) ( * 20100 ) M2_M1 ;
+- \multiply.adder2.carry\
+  ( _140_ A ) 
+  ( _139_ A ) 
+  ( _124_ Y ) 
++ ROUTED metal1 ( 6240 14100 ) M2_M1 
+  NEW metal2 ( 6240 14100 ) ( * 15000 ) ( 5520 * ) M3_M2 
+  NEW metal3 ( 5520 15000 ) ( 5040 * ) M3_M2 
+  NEW metal2 ( 5040 15000 ) ( * 18900 ) ( 5520 * ) ( * 19800 ) M2_M1 
+  NEW metal1 ( 6480 14100 ) ( 6240 * ) ;
+- \multiply.adder2.adder1.sum\
+  ( _128_ B ) 
+  ( _127_ B ) 
+  ( _125_ Y ) 
++ ROUTED metal1 ( 5280 16500 ) M2_M1 
+  NEW metal2 ( 5280 16500 ) ( * 18600 ) M3_M2 
+  NEW metal3 ( 5280 18600 ) ( 2880 * ) M3_M2 
+  NEW metal2 ( 2880 18600 ) ( * 19800 ) M2_M1 
+  NEW metal1 ( 5760 16200 ) M2_M1 
+  NEW metal2 ( 5760 16200 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 5760 16800 ) ( 5280 * ) M3_M2 ;
+- \multiply.adder2.adder2.b\
+  ( _95_ Y ) 
+  ( _128_ A ) 
+  ( _127_ A ) 
++ ROUTED metal1 ( 5520 16200 ) M2_M1 
+  NEW metal2 ( 5520 16200 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 5520 17400 ) ( 7200 * ) M3_M2 
+  NEW metal2 ( 7200 17400 ) ( * 16200 ) M2_M1 
+  NEW metal1 ( 4560 16500 ) M2_M1 
+  NEW metal2 ( 4560 16500 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 4560 17400 ) ( 5520 * ) ;
+- \multiply.adder2.adder2.sum\
+  ( _137_ B ) 
+  ( _136_ B ) 
+  ( _127_ Y ) 
++ ROUTED metal1 ( 8400 16200 ) M2_M1 
+  NEW metal2 ( 8400 16200 ) ( * 18000 ) M3_M2 
+  NEW metal3 ( 8400 18000 ) ( 6720 * ) M3_M2 
+  NEW metal2 ( 6720 18000 ) ( 6480 * ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 10320 16500 ) M2_M1 
+  NEW metal2 ( 10320 16500 ) ( * 18000 ) M3_M2 
+  NEW metal3 ( 10320 18000 ) ( 8400 * ) ;
+- \multiply.adder3.adder2.carry\
+  ( _133_ Y ) 
+  ( _129_ A ) 
++ ROUTED metal1 ( 2640 13800 ) M2_M1 
+  NEW metal2 ( 2640 13800 ) ( 2880 * ) ( * 14400 ) M2_M1 ;
+- \multiply.adder3.adder1.carry\
+  ( _131_ Y ) 
+  ( _129_ B ) 
++ ROUTED metal1 ( 2640 16500 ) M2_M1 
+  NEW metal2 ( 2640 16500 ) ( * 14400 ) M3_M2 
+  NEW metal3 ( 2640 14400 ) ( 3120 * ) M3_M2 
+  NEW metal2 ( 3120 14400 ) ( * 14100 ) M2_M1 ;
+- \multiply.adder3.carry\
+  ( _145_ A ) 
+  ( _144_ A ) 
+  ( _129_ Y ) 
++ ROUTED metal1 ( 3600 8100 ) M2_M1 
+  NEW metal2 ( 3600 8100 ) ( * 8400 ) M3_M2 
+  NEW metal3 ( 3600 8400 ) ( 4080 * ) M3_M2 
+  NEW metal2 ( 4080 8400 ) ( * 12000 ) M3_M2 
+  NEW metal3 ( 4080 12000 ) ( 3600 * ) M3_M2 
+  NEW metal2 ( 3600 12000 ) ( * 13800 ) M2_M1 
+  NEW metal1 ( 3840 8100 ) ( 3600 * ) ;
+- \accmulator.buffer3.d\
+  ( _31_ Y ) 
+  ( _12_ D ) 
++ ROUTED metal1 ( 26160 10500 ) M2_M1 
+  NEW metal2 ( 26160 10500 ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 26160 11400 ) ( 29040 * ) M3_M2 
+  NEW metal2 ( 29040 11400 ) ( * 10200 ) M2_M1 ;
+- \accmulator.buffer3.q\
+  ( _61_ A ) 
+  ( _60_ A ) 
+  ( _3_ A ) 
+  ( _12_ Q ) 
++ ROUTED metal1 ( 24960 14100 ) M2_M1 
+  NEW metal2 ( 24960 14100 ) ( * 12000 ) M3_M2 
+  NEW metal3 ( 24960 12000 ) ( 31920 * ) M3_M2 
+  NEW metal2 ( 31920 12000 ) ( * 11100 ) M2_M1 
+  NEW metal1 ( 21600 14100 ) M2_M1 
+  NEW metal2 ( 21600 14100 ) ( * 12000 ) M3_M2 
+  NEW metal3 ( 21600 12000 ) ( 24960 * ) 
+  NEW metal1 ( 31200 4500 ) M2_M1 
+  NEW metal2 ( 31200 4500 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 31200 4800 ) ( 30480 * ) M3_M2 
+  NEW metal2 ( 30480 4800 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 30480 9000 ) ( 31920 * ) M3_M2 
+  NEW metal2 ( 31920 9000 ) ( * 11100 ) ;
+- \multiply.adder3.a\
+  ( _91_ Y ) 
+  ( _131_ B ) 
+  ( _130_ B ) 
++ ROUTED metal1 ( 2880 16500 ) M2_M1 
+  NEW metal2 ( 2880 16500 ) ( * 15600 ) M3_M2 
+  NEW metal3 ( 2880 15600 ) ( 1920 * ) M3_M2 
+  NEW metal2 ( 1920 15600 ) ( 1680 * ) ( * 16200 ) M2_M1 
+  NEW metal1 ( 2160 16500 ) M2_M1 
+  NEW metal2 ( 2160 16500 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 2160 17400 ) ( 2880 * ) M3_M2 
+  NEW metal2 ( 2880 17400 ) ( * 16500 ) ;
+- \multiply.adder3.adder1.sum\
+  ( _133_ B ) 
+  ( _132_ B ) 
+  ( _130_ Y ) 
++ ROUTED metal1 ( 240 14100 ) M2_M1 
+  NEW metal2 ( 240 14100 ) ( * 15600 ) M3_M2 
+  NEW metal3 ( 240 15600 ) ( 1200 * ) ( * 16500 ) M3_M2 
+  NEW metal1 ( 1200 16500 ) M2_M1 
+  NEW metal1 ( 1200 16500 ) ( 960 * ) 
+  NEW metal1 ( 2160 13800 ) M2_M1 
+  NEW metal2 ( 2160 13800 ) ( 1920 * ) ( * 14400 ) M3_M2 
+  NEW metal3 ( 1920 14400 ) ( 240 * ) M3_M2 ;
+- \multiply.adder3.adder2.sum\
+  ( _140_ B ) 
+  ( _139_ B ) 
+  ( _132_ Y ) 
++ ROUTED metal1 ( 4800 14100 ) M2_M1 
+  NEW metal2 ( 4800 14100 ) ( * 12600 ) M3_M2 
+  NEW metal3 ( 4800 12600 ) ( 960 * ) M3_M2 
+  NEW metal2 ( 960 12600 ) ( * 13800 ) M2_M1 
+  NEW metal1 ( 6720 13800 ) M2_M1 
+  NEW metal2 ( 6720 13800 ) ( * 12600 ) M3_M2 
+  NEW metal3 ( 6720 12600 ) ( 4800 * ) ;
+- \multiply.adder4.a\
+  ( _92_ Y ) 
+  ( _135_ B ) 
+  ( _134_ B ) 
++ ROUTED metal1 ( 960 10500 ) M2_M1 
+  NEW metal2 ( 960 10500 ) ( * 10200 ) ( 1200 * ) M2_M1 
+  NEW metal1 ( 1680 7800 ) M2_M1 
+  NEW metal2 ( 1680 7800 ) ( 1440 * ) ( * 8100 ) ( 1200 * ) ( * 10200 ) ;
+- \multiply.adder4.sum\
+  ( _145_ B ) 
+  ( _144_ B ) 
+  ( _134_ Y ) 
++ ROUTED metal1 ( 2160 8100 ) M2_M1 
+  NEW metal2 ( 2160 8100 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 2160 9000 ) ( 1680 * ) M3_M2 
+  NEW metal2 ( 1680 9000 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 1680 9600 ) ( 1200 * ) ( * 10500 ) M3_M2 
+  NEW metal1 ( 1200 10500 ) M2_M1 
+  NEW metal1 ( 1200 10500 ) ( 1920 * ) 
+  NEW metal1 ( 4080 7800 ) M2_M1 
+  NEW metal2 ( 4080 7800 ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 4080 6600 ) ( 2160 * ) M3_M2 
+  NEW metal2 ( 2160 6600 ) ( * 8100 ) ;
+- \multiply.adder4.carry\
+  ( _150_ A ) 
+  ( _149_ A ) 
+  ( _135_ Y ) 
++ ROUTED metal1 ( 1680 4200 ) M2_M1 
+  NEW metal2 ( 1680 4200 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 1680 4800 ) ( 1200 * ) M3_M2 
+  NEW metal2 ( 1200 4800 ) ( * 7800 ) M2_M1 
+  NEW metal1 ( 1920 4200 ) ( 1680 * ) ;
+- \adder.adder2.a\
+  ( _56_ B ) 
+  ( _55_ B ) 
+  ( _136_ Y ) 
++ ROUTED metal1 ( 30480 16200 ) M2_M1 
+  NEW metal2 ( 30480 16200 ) ( * 15600 ) M3_M2 
+  NEW metal3 ( 30480 15600 ) ( 9360 * ) ( * 16200 ) ( 8880 * ) ( * 16500 ) M3_M2 
+  NEW metal1 ( 8880 16500 ) M2_M1 
+  NEW metal1 ( 8880 16500 ) ( 9120 * ) 
+  NEW metal1 ( 31680 13800 ) M2_M1 
+  NEW metal2 ( 31680 13800 ) ( * 15000 ) M3_M2 
+  NEW metal3 ( 31680 15000 ) ( 30480 * ) M3_M2 
+  NEW metal2 ( 30480 15000 ) ( * 15600 ) ;
+- \multiply.adder5.carry\
+  ( _154_ A ) 
+  ( _153_ A ) 
+  ( _137_ Y ) 
++ ROUTED metal1 ( 12720 14100 ) M2_M1 
+  NEW metal2 ( 12720 14100 ) ( * 15000 ) M3_M2 
+  NEW metal3 ( 12720 15000 ) ( 10800 * ) M3_M2 
+  NEW metal2 ( 10800 15000 ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 12960 14100 ) ( 12720 * ) ;
+- \multiply.adder6.adder2.carry\
+  ( _142_ Y ) 
+  ( _138_ A ) 
++ ROUTED metal1 ( 9360 13800 ) M2_M1 
+  NEW metal2 ( 9360 13800 ) ( 9120 * ) ( * 14400 ) M2_M1 ;
+- \multiply.adder6.adder1.carry\
+  ( _140_ Y ) 
+  ( _138_ B ) 
++ ROUTED metal1 ( 7200 13800 ) M2_M1 
+  NEW metal2 ( 7200 13800 ) ( * 14400 ) M3_M2 
+  NEW metal3 ( 7200 14400 ) ( 8880 * ) M3_M2 
+  NEW metal2 ( 8880 14400 ) ( * 14100 ) M2_M1 ;
+- \multiply.adder6.adder1.sum\
+  ( _142_ B ) 
+  ( _141_ B ) 
+  ( _139_ Y ) 
++ ROUTED metal1 ( 9840 13800 ) M2_M1 
+  NEW metal2 ( 9840 13800 ) ( * 13200 ) M3_M2 
+  NEW metal3 ( 9840 13200 ) ( 5520 * ) M3_M2 
+  NEW metal2 ( 5520 13200 ) ( * 13800 ) M2_M1 
+  NEW metal1 ( 11760 14100 ) M2_M1 
+  NEW metal2 ( 11760 14100 ) ( * 13800 ) M3_M2 
+  NEW metal3 ( 11760 13800 ) ( 9840 * ) M3_M2 ;
+- \accmulator.buffer4.d\
+  ( _36_ Y ) 
+  ( _13_ D ) 
++ ROUTED metal1 ( 23520 10500 ) M2_M1 
+  NEW metal2 ( 23520 10500 ) ( * 10800 ) ( 23760 * ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 23760 11400 ) ( 25200 * ) M3_M2 
+  NEW metal2 ( 25200 11400 ) ( * 10200 ) M3_M2 
+  NEW metal3 ( 25200 10200 ) ( 25680 * ) ( * 9600 ) M3_M2 
+  NEW metal2 ( 25680 9600 ) ( * 8400 ) M3_M2 
+  NEW metal3 ( 25680 8400 ) ( 22080 * ) M3_M2 
+  NEW metal2 ( 22080 8400 ) ( * 10800 ) ( 21840 * ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 21840 11400 ) ( 17760 * ) M3_M2 
+  NEW metal2 ( 17760 11400 ) ( * 14100 ) M2_M1 ;
+- \accmulator.buffer4.q\
+  ( _66_ A ) 
+  ( _65_ A ) 
+  ( _4_ A ) 
+  ( _13_ Q ) 
++ ROUTED metal1 ( 15360 10200 ) M2_M1 
+  NEW metal2 ( 15360 10200 ) ( * 12600 ) M3_M2 
+  NEW metal3 ( 15360 12600 ) ( 14880 * ) M3_M2 
+  NEW metal2 ( 14880 12600 ) ( * 13200 ) M2_M1 
+  NEW metal1 ( 13680 10200 ) M2_M1 
+  NEW metal2 ( 13680 10200 ) M3_M2 
+  NEW metal3 ( 13680 10200 ) ( 15360 * ) M3_M2 
+  NEW metal1 ( 13680 7800 ) M2_M1 
+  NEW metal2 ( 13680 7800 ) ( * 10200 ) ;
+- \multiply.adder6.adder2.b\
+  ( _98_ Y ) 
+  ( _142_ A ) 
+  ( _141_ A ) 
++ ROUTED metal1 ( 10080 14100 ) ( 10320 * ) 
+  NEW metal1 ( 8160 13800 ) M2_M1 
+  NEW metal2 ( 8160 13800 ) M3_M2 
+  NEW metal3 ( 8160 13800 ) ( 9360 * ) ( * 14100 ) M3_M2 
+  NEW metal2 ( 9360 14100 ) ( 10080 * ) M2_M1 ;
+- \multiply.adder6.adder2.sum\
+  ( _154_ B ) 
+  ( _153_ B ) 
+  ( _141_ Y ) 
++ ROUTED metal1 ( 12480 13800 ) M2_M1 
+  NEW metal2 ( 12480 13800 ) ( * 13200 ) M3_M2 
+  NEW metal3 ( 12480 13200 ) ( 11280 * ) M3_M2 
+  NEW metal2 ( 11280 13200 ) ( * 13800 ) M2_M1 
+  NEW metal1 ( 11280 13800 ) ( 11040 * ) 
+  NEW metal1 ( 14400 14100 ) M2_M1 
+  NEW metal2 ( 14400 14100 ) ( * 13800 ) M3_M2 
+  NEW metal3 ( 14400 13800 ) ( 12480 * ) M3_M2 ;
+- \multiply.adder7.adder2.carry\
+  ( _147_ Y ) 
+  ( _143_ A ) 
++ ROUTED metal1 ( 5760 7800 ) M2_M1 
+  NEW metal2 ( 5760 7800 ) ( * 8100 ) ( 5280 * ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 5280 9000 ) ( 4800 * ) M3_M2 
+  NEW metal2 ( 4800 9000 ) ( * 8400 ) M2_M1 ;
+- \multiply.adder7.adder1.carry\
+  ( _145_ Y ) 
+  ( _143_ B ) 
++ ROUTED metal1 ( 4560 7800 ) M2_M1 
+  NEW metal2 ( 4560 7800 ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 4560 7200 ) ( 5040 * ) M3_M2 
+  NEW metal2 ( 5040 7200 ) ( * 8100 ) M2_M1 ;
+- \multiply.adder7.adder1.sum\
+  ( _147_ B ) 
+  ( _146_ B ) 
+  ( _144_ Y ) 
++ ROUTED metal1 ( 6240 7800 ) M2_M1 
+  NEW metal2 ( 6240 7800 ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 6240 6000 ) ( 2880 * ) M3_M2 
+  NEW metal2 ( 2880 6000 ) ( * 7800 ) M2_M1 
+  NEW metal1 ( 6720 8100 ) M2_M1 
+  NEW metal2 ( 6720 8100 ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 6720 6000 ) ( 6240 * ) ;
+- \multiply.adder8.adder2.carry\
+  ( _152_ Y ) 
+  ( _148_ A ) 
++ ROUTED metal1 ( 2880 4500 ) M2_M1 
+  NEW metal2 ( 2880 4500 ) ( * 4200 ) ( 2640 * ) ( * 2400 ) M2_M1 ;
+- \multiply.adder8.adder1.carry\
+  ( _150_ Y ) 
+  ( _148_ B ) 
++ ROUTED metal1 ( 2640 4500 ) M2_M1 
+  NEW metal2 ( 2640 4500 ) ( 2400 * ) ( * 2100 ) M2_M1 ;
+- \multiply.adder8.a\
+  ( _93_ Y ) 
+  ( _150_ B ) 
+  ( _149_ B ) 
++ ROUTED metal1 ( 2160 4500 ) M2_M1 
+  NEW metal2 ( 2160 4500 ) ( * 4200 ) M3_M2 
+  NEW metal3 ( 2160 4200 ) ( 240 * ) M3_M2 
+  NEW metal1 ( 240 4200 ) M2_M1 
+  NEW metal1 ( 960 7800 ) M2_M1 
+  NEW metal2 ( 960 7800 ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 960 6000 ) ( 240 * ) M3_M2 
+  NEW metal2 ( 240 6000 ) ( * 4200 ) ;
+- \multiply.adder8.adder1.sum\
+  ( _152_ B ) 
+  ( _151_ B ) 
+  ( _149_ Y ) 
++ ROUTED metal1 ( 3360 4500 ) M2_M1 
+  NEW metal2 ( 3360 4500 ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 3360 5400 ) ( 960 * ) M3_M2 
+  NEW metal2 ( 960 5400 ) ( * 4500 ) M2_M1 
+  NEW metal1 ( 3840 4200 ) M2_M1 
+  NEW metal2 ( 3840 4200 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 3840 4800 ) ( 3360 * ) M3_M2 ;
+- \accmulator.buffer5.d\
+  ( _41_ Y ) 
+  ( _14_ D ) 
++ ROUTED metal1 ( 17040 7800 ) M2_M1 
+  NEW metal2 ( 17040 7800 ) M3_M2 
+  NEW metal3 ( 17040 7800 ) ( 21120 * ) M3_M2 
+  NEW metal2 ( 21120 7800 ) ( * 8100 ) M2_M1 ;
+- \accmulator.buffer5.q\
+  ( _71_ A ) 
+  ( _70_ A ) 
+  ( _5_ A ) 
+  ( _14_ Q ) 
++ ROUTED metal1 ( 12480 4200 ) M2_M1 
+  NEW metal2 ( 12480 4200 ) M3_M2 
+  NEW metal3 ( 12480 4200 ) ( 16560 * ) ( * 4800 ) ( 16800 * ) M3_M2 
+  NEW metal2 ( 16800 4800 ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 16800 6600 ) ( 18000 * ) M3_M2 
+  NEW metal2 ( 18000 6600 ) ( * 7200 ) M2_M1 
+  NEW metal1 ( 18000 7200 ) ( 18240 * ) 
+  NEW metal1 ( 10800 4200 ) M2_M1 
+  NEW metal2 ( 10800 4200 ) M3_M2 
+  NEW metal3 ( 10800 4200 ) ( 12480 * ) 
+  NEW metal1 ( 8880 1800 ) M2_M1 
+  NEW metal2 ( 8880 1800 ) ( * 3900 ) M3_M2 
+  NEW metal3 ( 8880 3900 ) ( * 4200 ) ( 10800 * ) ;
+- \adder.adder3.a\
+  ( _61_ B ) 
+  ( _60_ B ) 
+  ( _153_ Y ) 
++ ROUTED metal1 ( 21360 13800 ) M2_M1 
+  NEW metal2 ( 21360 13800 ) ( * 13200 ) M3_M2 
+  NEW metal3 ( 21360 13200 ) ( 14640 * ) M3_M2 
+  NEW metal2 ( 14640 13200 ) ( * 13800 ) M2_M1 
+  NEW metal1 ( 14640 13800 ) ( 13680 * ) 
+  NEW metal1 ( 23520 14100 ) M2_M1 
+  NEW metal2 ( 23520 14100 ) ( * 13200 ) M3_M2 
+  NEW metal3 ( 23520 13200 ) ( 21360 * ) ;
+- \accmulator.buffer6.d\
+  ( _46_ Y ) 
+  ( _15_ D ) 
++ ROUTED metal1 ( 16080 4500 ) M2_M1 
+  NEW metal2 ( 16080 4500 ) ( * 4800 ) ( 15840 * ) ( * 5100 ) ( 15600 * ) ( * 6300 ) ( 15360 * ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 15360 7200 ) ( 14880 * ) M3_M2 
+  NEW metal2 ( 14880 7200 ) ( * 4200 ) ( 15120 * ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 15120 3600 ) ( 15600 * ) M3_M2 
+  NEW metal2 ( 15600 3600 ) ( * 2100 ) M2_M1 ;
+- \accmulator.buffer6.q\
+  ( _76_ A ) 
+  ( _75_ A ) 
+  ( _6_ A ) 
+  ( _15_ Q ) 
++ ROUTED metal1 ( 11520 2100 ) M2_M1 
+  NEW metal2 ( 11520 2100 ) ( * 1800 ) M3_M2 
+  NEW metal3 ( 11520 1800 ) ( 12480 * ) M3_M2 
+  NEW metal2 ( 12480 1800 ) ( * 1200 ) M2_M1 
+  NEW metal1 ( 12480 1200 ) ( 12720 * ) 
+  NEW metal1 ( 11280 1800 ) M2_M1 
+  NEW metal2 ( 11280 1800 ) ( 11520 * ) 
+  NEW metal1 ( 10560 2100 ) M2_M1 
+  NEW metal2 ( 10560 2100 ) ( * 1800 ) M3_M2 
+  NEW metal3 ( 10560 1800 ) ( 11280 * ) ( 11520 * ) ;
+- \accmulator.buffer7.d\
+  ( _51_ Y ) 
+  ( _16_ D ) 
++ ROUTED metal1 ( 26640 4500 ) ( 26880 * ) M2_M1 
+  NEW metal2 ( 26880 4500 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 26880 4800 ) ( 28080 * ) ( * 5400 ) ( 29040 * ) M3_M2 
+  NEW metal2 ( 29040 5400 ) ( * 3900 ) ( 28800 * ) ( * 2100 ) M2_M1 ;
+- \accmulator.buffer7.q\
+  ( _81_ A ) 
+  ( _80_ A ) 
+  ( _7_ A ) 
+  ( _16_ Q ) 
++ ROUTED metal1 ( 31920 4500 ) M2_M1 
+  NEW metal2 ( 31920 4500 ) ( * 1200 ) M2_M1 
+  NEW metal1 ( 31920 1200 ) ( 31680 * ) 
+  NEW metal1 ( 24000 2100 ) M2_M1 
+  NEW metal2 ( 24000 2100 ) ( * 2400 ) M3_M2 
+  NEW metal3 ( 24000 2400 ) ( 24720 * ) ( * 1800 ) ( 25440 * ) M3_M2 
+  NEW metal2 ( 25440 1800 ) ( * 2100 ) ( 25680 * ) ( * 2400 ) M3_M2 
+  NEW metal3 ( 25680 2400 ) ( 26400 * ) M3_M2 
+  NEW metal2 ( 26400 2400 ) ( * 3000 ) M3_M2 
+  NEW metal3 ( 26400 3000 ) ( 27120 * ) M3_M2 
+  NEW metal2 ( 27120 3000 ) ( * 2400 ) M3_M2 
+  NEW metal3 ( 27120 2400 ) ( 31920 * ) M3_M2 
+  NEW metal1 ( 22800 2100 ) M2_M1 
+  NEW metal2 ( 22800 2100 ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 22800 3600 ) ( 24000 * ) M3_M2 
+  NEW metal2 ( 24000 3600 ) ( * 2400 ) ;
+- \accmulator.buffer8.d\
+  ( _53_ Y ) 
+  ( _17_ D ) 
++ ROUTED metal1 ( 30240 4500 ) ( 30000 * ) M2_M1 
+  NEW metal2 ( 30000 4500 ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 30000 7200 ) ( 28800 * ) M3_M2 
+  NEW metal2 ( 28800 7200 ) ( * 8100 ) M2_M1 ;
+- \adder.adder0.adder2.carry\
+  ( _22_ Y ) 
+  ( _18_ A ) 
++ ROUTED metal1 ( 14640 16500 ) M2_M1 
+  NEW metal2 ( 14640 16500 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 14640 16800 ) ( 13680 * ) M3_M2 
+  NEW metal2 ( 13680 16800 ) ( * 15900 ) M2_M1 ;
+- \adder.adder0.adder1.carry\
+  ( _20_ Y ) 
+  ( _18_ B ) 
++ ROUTED metal1 ( 13440 16500 ) M2_M1 
+  NEW metal2 ( 13440 16500 ) ( * 16200 ) M3_M2 
+  NEW metal3 ( 13440 16200 ) ( 13920 * ) M3_M2 
+  NEW metal1 ( 13920 16200 ) M2_M1 ;
+- \adder.adder0.carry\
+  ( _85_ B ) 
+  ( _84_ B ) 
+  ( _18_ Y ) 
++ ROUTED metal1 ( 20880 16200 ) M2_M1 
+  NEW metal2 ( 20880 16200 ) M3_M2 
+  NEW metal3 ( 20880 16200 ) ( 14400 * ) M3_M2 
+  NEW metal2 ( 14400 16200 ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 22800 16500 ) M2_M1 
+  NEW metal2 ( 22800 16500 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 22800 17400 ) ( 20880 * ) M3_M2 
+  NEW metal2 ( 20880 17400 ) ( * 16200 ) ;
+- \adder.adder0.a\
+  ( _96_ Y ) 
+  ( _20_ B ) 
+  ( _19_ B ) 
++ ROUTED metal1 ( 12960 16500 ) M2_M1 
+  NEW metal2 ( 12960 16500 ) ( * 16200 ) M3_M2 
+  NEW metal3 ( 12960 16200 ) ( 11040 * ) M3_M2 
+  NEW metal1 ( 11040 16200 ) M2_M1 
+  NEW metal1 ( 8160 16500 ) M2_M1 
+  NEW metal2 ( 8160 16500 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 8160 16800 ) ( 11040 * ) M3_M2 
+  NEW metal2 ( 11040 16800 ) ( * 16200 ) ;
+- \adder.adder0.adder1.sum\
+  ( _22_ B ) 
+  ( _21_ B ) 
+  ( _19_ Y ) 
++ ROUTED metal1 ( 15120 16500 ) M2_M1 
+  NEW metal2 ( 15120 16500 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 15120 17400 ) ( 11760 * ) M3_M2 
+  NEW metal2 ( 11760 17400 ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 15600 16200 ) M2_M1 
+  NEW metal2 ( 15600 16200 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 15600 16800 ) ( 15120 * ) M3_M2 ;
+- f[1]
+  ( PIN f[1] ) 
+  ( _1_ Y ) 
++ ROUTED metal2 ( 20160 21900 ) ( 19920 * ) ( * 20100 ) M2_M1 ;
+- \accmulator.buffer0.d\
+  ( _9_ D ) 
+  ( _21_ Y ) 
++ ROUTED metal1 ( 15120 20100 ) M2_M1 
+  NEW metal2 ( 15120 20100 ) ( * 18600 ) M3_M2 
+  NEW metal3 ( 15120 18600 ) ( 16080 * ) M3_M2 
+  NEW metal2 ( 16080 18600 ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 16080 16500 ) ( 16320 * ) ;
+- \adder.adder1.adder2.carry\
+  ( _27_ Y ) 
+  ( _23_ A ) 
++ ROUTED metal1 ( 18000 16500 ) M2_M1 
+  NEW metal2 ( 18000 16500 ) ( 18240 * ) ( * 15900 ) M2_M1 ;
+- \adder.adder1.adder1.carry\
+  ( _25_ Y ) 
+  ( _23_ B ) 
++ ROUTED metal1 ( 18960 19800 ) M2_M1 
+  NEW metal2 ( 18960 19800 ) ( * 21000 ) M3_M2 
+  NEW metal3 ( 18960 21000 ) ( 20160 * ) M3_M2 
+  NEW metal2 ( 20160 21000 ) ( * 18000 ) M3_M2 
+  NEW metal3 ( 20160 18000 ) ( 18480 * ) M3_M2 
+  NEW metal2 ( 18480 18000 ) ( * 16200 ) M2_M1 ;
+- \adder.adder1.carry\
+  ( _88_ B ) 
+  ( _87_ B ) 
+  ( _23_ Y ) 
++ ROUTED metal1 ( 24720 16500 ) M2_M1 
+  NEW metal2 ( 24720 16500 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 24720 16800 ) ( 19680 * ) M3_M2 
+  NEW metal2 ( 19680 16800 ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 19680 16500 ) ( 18960 * ) 
+  NEW metal1 ( 25440 16200 ) M2_M1 
+  NEW metal2 ( 25440 16200 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 25440 16800 ) ( 24720 * ) ;
+- \adder.adder1.adder1.sum\
+  ( _27_ B ) 
+  ( _26_ B ) 
+  ( _24_ Y ) 
++ ROUTED metal1 ( 17520 16500 ) M2_M1 
+  NEW metal2 ( 17520 16500 ) ( * 18300 ) ( 17760 * ) ( * 19800 ) M2_M1 
+  NEW metal1 ( 17760 19800 ) ( 18000 * ) 
+  NEW metal1 ( 19200 16200 ) M2_M1 
+  NEW metal2 ( 19200 16200 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 19200 17400 ) ( 17520 * ) M3_M2 ;
+- \adder.adder1.adder2.sum\
+  ( _85_ A ) 
+  ( _84_ A ) 
+  ( _26_ Y ) 
++ ROUTED metal1 ( 22320 16200 ) M2_M1 
+  NEW metal2 ( 22320 16200 ) M3_M2 
+  NEW metal3 ( 22320 16200 ) ( 21360 * ) ( * 16500 ) M3_M2 
+  NEW metal1 ( 21360 16500 ) M2_M1 
+  NEW metal1 ( 21360 16500 ) ( 20640 * ) M2_M1 
+  NEW metal2 ( 20640 16500 ) ( * 17100 ) ( 19920 * ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 22560 16200 ) ( 22320 * ) ;
+- \adder.adder10.adder2.carry\
+  ( _32_ Y ) 
+  ( _28_ A ) 
++ ROUTED metal1 ( 24720 7800 ) M2_M1 
+  NEW metal2 ( 24720 7800 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 24720 9600 ) ( 25200 * ) M3_M2 
+  NEW metal2 ( 25200 9600 ) ( * 9900 ) M2_M1 ;
+- \adder.adder10.adder1.carry\
+  ( _30_ Y ) 
+  ( _28_ B ) 
++ ROUTED metal1 ( 25920 1800 ) M2_M1 
+  NEW metal2 ( 25920 1800 ) ( * 3000 ) M3_M2 
+  NEW metal3 ( 25920 3000 ) ( 25440 * ) M3_M2 
+  NEW metal2 ( 25440 3000 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 25440 4800 ) ( 24960 * ) M3_M2 
+  NEW metal2 ( 24960 4800 ) ( * 10200 ) M2_M1 ;
+- \adder.adder10.carry\
+  ( _37_ A ) 
+  ( _36_ A ) 
+  ( _28_ Y ) 
++ ROUTED metal1 ( 24240 10200 ) ( * 10500 ) ( 24480 * ) 
+  NEW metal1 ( 22560 10200 ) M2_M1 
+  NEW metal2 ( 22560 10200 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 22560 9600 ) ( 24240 * ) M3_M2 
+  NEW metal2 ( 24240 9600 ) ( * 10200 ) M2_M1 ;
+- \adder.adder10.adder1.b\
+  ( _62_ Y ) 
+  ( _30_ A ) 
+  ( _29_ A ) 
++ ROUTED metal1 ( 27600 13800 ) ( 27360 * ) M2_M1 
+  NEW metal2 ( 27360 13800 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 27360 9000 ) ( 29760 * ) M3_M2 
+  NEW metal2 ( 29760 9000 ) ( * 8400 ) M3_M2 
+  NEW metal3 ( 29760 8400 ) ( 30960 * ) M3_M2 
+  NEW metal2 ( 30960 8400 ) ( * 8100 ) M2_M1 
+  NEW metal1 ( 26640 2100 ) M2_M1 
+  NEW metal2 ( 26640 2100 ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 26640 3600 ) ( * 4500 ) M3_M2 
+  NEW metal2 ( 26640 4500 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 26640 9600 ) ( 27360 * ) M3_M2 ;
+- \adder.adder10.a\
+  ( _54_ Y ) 
+  ( _30_ B ) 
+  ( _29_ B ) 
++ ROUTED metal1 ( 28560 13800 ) M2_M1 
+  NEW metal2 ( 28560 13800 ) ( * 12600 ) M3_M2 
+  NEW metal3 ( 28560 12600 ) ( 29520 * ) M3_M2 
+  NEW metal2 ( 29520 12600 ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 29520 11400 ) ( 32400 * ) M3_M2 
+  NEW metal2 ( 32400 11400 ) ( * 8100 ) M2_M1 
+  NEW metal1 ( 26400 1800 ) M2_M1 
+  NEW metal2 ( 26400 1800 ) ( * 1200 ) M3_M2 
+  NEW metal3 ( 26400 1200 ) ( 28800 * ) M3_M2 
+  NEW metal2 ( 28800 1200 ) ( * 1800 ) M3_M2 
+  NEW metal3 ( 28800 1800 ) ( 31440 * ) M3_M2 
+  NEW metal2 ( 31440 1800 ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 31440 5400 ) ( 32400 * ) M3_M2 
+  NEW metal2 ( 32400 5400 ) ( * 8100 ) ;
+- \adder.adder10.adder1.sum\
+  ( _32_ B ) 
+  ( _31_ B ) 
+  ( _29_ Y ) 
++ ROUTED metal1 ( 26880 10200 ) M2_M1 
+  NEW metal2 ( 26880 10200 ) M3_M2 
+  NEW metal3 ( 26880 10200 ) ( 30720 * ) M3_M2 
+  NEW metal2 ( 30720 10200 ) ( * 7800 ) M3_M2 
+  NEW metal3 ( 30720 7800 ) ( 31680 * ) M3_M2 
+  NEW metal1 ( 31680 7800 ) M2_M1 
+  NEW metal1 ( 25200 7800 ) M2_M1 
+  NEW metal2 ( 25200 7800 ) ( * 9000 ) M3_M2 
+  NEW metal3 ( 25200 9000 ) ( 26880 * ) M3_M2 
+  NEW metal2 ( 26880 9000 ) ( * 10200 ) ;
+- f[2]
+  ( PIN f[2] ) 
+  ( _2_ Y ) 
++ ROUTED metal3 ( 33120 19500 ) ( * 19800 ) ( 32400 * ) M3_M2 
+  NEW metal2 ( 32400 19800 ) ( * 20100 ) M2_M1 
+  NEW metal1 ( 32400 20100 ) ( 31680 * ) ;
+- \adder.adder10.adder2.b\
+  ( _86_ Y ) 
+  ( _32_ A ) 
+  ( _31_ A ) 
++ ROUTED metal1 ( 25440 8100 ) M2_M1 
+  NEW metal2 ( 25440 8100 ) ( * 10200 ) M2_M1 
+  NEW metal1 ( 25920 13800 ) M2_M1 
+  NEW metal2 ( 25920 13800 ) ( 25440 * ) ( * 10200 ) ;
+- \adder.adder11.adder2.carry\
+  ( _37_ Y ) 
+  ( _33_ A ) 
++ ROUTED metal1 ( 21840 10500 ) M2_M1 
+  NEW metal2 ( 21840 10500 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 21840 9600 ) ( 18960 * ) M3_M2 
+  NEW metal2 ( 18960 9600 ) ( * 9900 ) M2_M1 ;
+- \adder.adder11.adder1.carry\
+  ( _35_ Y ) 
+  ( _33_ B ) 
++ ROUTED metal1 ( 19200 10500 ) M2_M1 
+  NEW metal2 ( 19200 10500 ) ( 18960 * ) ( * 10200 ) M2_M1 
+  NEW metal1 ( 18960 10200 ) ( 18720 * ) ;
+- \adder.adder11.carry\
+  ( _42_ A ) 
+  ( _41_ A ) 
+  ( _33_ Y ) 
++ ROUTED metal1 ( 17760 8100 ) ( 18000 * ) M2_M1 
+  NEW metal2 ( 18000 8100 ) ( 18240 * ) ( * 10500 ) M2_M1 
+  NEW metal1 ( 16080 8100 ) M2_M1 
+  NEW metal2 ( 16080 8100 ) ( * 8400 ) M3_M2 
+  NEW metal3 ( 16080 8400 ) ( 18000 * ) M3_M2 
+  NEW metal2 ( 18000 8400 ) ( * 8100 ) ;
+- \adder.adder11.adder1.b\
+  ( _67_ Y ) 
+  ( _35_ A ) 
+  ( _34_ A ) 
++ ROUTED metal1 ( 19920 10200 ) M2_M1 
+  NEW metal2 ( 19920 10200 ) M3_M2 
+  NEW metal3 ( 19920 10200 ) ( 21600 * ) M3_M2 
+  NEW metal1 ( 21600 10200 ) M2_M1 
+  NEW metal1 ( 17280 10500 ) ( 17040 * ) M2_M1 
+  NEW metal2 ( 17040 10500 ) M3_M2 
+  NEW metal3 ( 17040 10500 ) ( * 10200 ) ( 19920 * ) ;
+- \adder.adder11.a\
+  ( _59_ Y ) 
+  ( _35_ B ) 
+  ( _34_ B ) 
++ ROUTED metal1 ( 19680 10500 ) M2_M1 
+  NEW metal2 ( 19680 10500 ) ( * 10800 ) M3_M2 
+  NEW metal3 ( 19680 10800 ) ( 20160 * ) M3_M2 
+  NEW metal2 ( 20160 10800 ) ( * 10200 ) M2_M1 
+  NEW metal1 ( 19920 13800 ) M2_M1 
+  NEW metal2 ( 19920 13800 ) ( * 10800 ) ( 20160 * ) ;
+- \adder.adder11.adder1.sum\
+  ( _37_ B ) 
+  ( _36_ B ) 
+  ( _34_ Y ) 
++ ROUTED metal1 ( 22320 10500 ) M2_M1 
+  NEW metal2 ( 22320 10500 ) ( * 10800 ) M3_M2 
+  NEW metal3 ( 22320 10800 ) ( 20880 * ) M3_M2 
+  NEW metal2 ( 20880 10800 ) ( * 10500 ) M2_M1 
+  NEW metal1 ( 22800 10200 ) ( * 10500 ) ( 23280 * ) M2_M1 
+  NEW metal2 ( 23280 10500 ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 23280 11400 ) ( 22320 * ) M3_M2 
+  NEW metal2 ( 22320 11400 ) ( * 10800 ) ;
+- \adder.adder12.adder2.carry\
+  ( _42_ Y ) 
+  ( _38_ A ) 
++ ROUTED metal1 ( 15360 7800 ) M2_M1 
+  NEW metal2 ( 15360 7800 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 15360 9600 ) ( 14640 * ) M3_M2 
+  NEW metal2 ( 14640 9600 ) ( 14400 * ) ( * 8400 ) M2_M1 ;
+- \adder.adder12.adder1.carry\
+  ( _40_ Y ) 
+  ( _38_ B ) 
++ ROUTED metal1 ( 11760 7800 ) ( 12480 * ) M2_M1 
+  NEW metal2 ( 12480 7800 ) ( * 7200 ) M3_M2 
+  NEW metal3 ( 12480 7200 ) ( 14400 * ) M3_M2 
+  NEW metal2 ( 14400 7200 ) ( * 8100 ) M2_M1 
+  NEW metal1 ( 14400 8100 ) ( 14640 * ) ;
+- \adder.adder12.carry\
+  ( _47_ A ) 
+  ( _46_ A ) 
+  ( _38_ Y ) 
++ ROUTED metal1 ( 15360 4200 ) M2_M1 
+  NEW metal2 ( 15360 4200 ) ( * 6000 ) ( 15120 * ) ( * 7800 ) M2_M1 
+  NEW metal1 ( 17040 4200 ) M2_M1 
+  NEW metal2 ( 17040 4200 ) ( * 4500 ) ( 16800 * ) M2_M1 
+  NEW metal1 ( 16800 4500 ) ( 16320 * ) M2_M1 
+  NEW metal2 ( 16320 4500 ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 16320 6000 ) ( 15360 * ) M3_M2 ;
+- \adder.adder12.adder1.b\
+  ( _72_ Y ) 
+  ( _40_ A ) 
+  ( _39_ A ) 
++ ROUTED metal1 ( 11040 8100 ) M2_M1 
+  NEW metal2 ( 11040 8100 ) ( * 7800 ) M3_M2 
+  NEW metal3 ( 11040 7800 ) ( 9360 * ) M3_M2 
+  NEW metal2 ( 9360 7800 ) ( * 8100 ) M2_M1 
+  NEW metal1 ( 12720 7800 ) M2_M1 
+  NEW metal2 ( 12720 7800 ) M3_M2 
+  NEW metal3 ( 12720 7800 ) ( 11040 * ) ;
+- \adder.adder12.a\
+  ( _64_ Y ) 
+  ( _40_ B ) 
+  ( _39_ B ) 
++ ROUTED metal1 ( 11280 7800 ) M2_M1 
+  NEW metal2 ( 11280 7800 ) ( * 8400 ) M3_M2 
+  NEW metal3 ( 11280 8400 ) ( 10800 * ) M3_M2 
+  NEW metal2 ( 10800 8400 ) ( * 8100 ) M2_M1 
+  NEW metal1 ( 12000 10500 ) M2_M1 
+  NEW metal2 ( 12000 10500 ) ( * 9600 ) M3_M2 
+  NEW metal3 ( 12000 9600 ) ( 11280 * ) M3_M2 
+  NEW metal2 ( 11280 9600 ) ( * 8400 ) ;
+- \adder.adder12.adder1.sum\
+  ( _42_ B ) 
+  ( _41_ B ) 
+  ( _39_ Y ) 
++ ROUTED metal1 ( 15840 7800 ) M2_M1 
+  NEW metal2 ( 15840 7800 ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 15840 6600 ) ( 10800 * ) M3_M2 
+  NEW metal2 ( 10800 6600 ) ( * 7800 ) M2_M1 
+  NEW metal1 ( 10800 7800 ) ( 10080 * ) 
+  NEW metal1 ( 16320 8100 ) M2_M1 
+  NEW metal2 ( 16320 8100 ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 16320 6600 ) ( 15840 * ) ;
+- f[3]
+  ( PIN f[3] ) 
+  ( _3_ Y ) 
++ ROUTED metal3 ( 33120 5100 ) ( * 4800 ) ( 31680 * ) M3_M2 
+  NEW metal2 ( 31680 4800 ) ( * 4200 ) M2_M1 ;
+- \adder.adder13.adder2.carry\
+  ( _47_ Y ) 
+  ( _43_ A ) 
++ ROUTED metal1 ( 17760 4500 ) M2_M1 
+  NEW metal2 ( 17760 4500 ) ( 18000 * ) ( * 3600 ) ( 18960 * ) M3_M2 
+  NEW metal3 ( 18960 3600 ) ( 20640 * ) M3_M2 
+  NEW metal2 ( 20640 3600 ) ( * 3900 ) M2_M1 ;
+- \adder.adder13.adder1.carry\
+  ( _45_ Y ) 
+  ( _43_ B ) 
++ ROUTED metal1 ( 20400 4500 ) M2_M1 
+  NEW metal2 ( 20400 4500 ) ( 20640 * ) ( * 4200 ) M2_M1 
+  NEW metal1 ( 20640 4200 ) ( 20880 * ) ;
+- \adder.adder13.carry\
+  ( _52_ A ) 
+  ( _51_ A ) 
+  ( _43_ Y ) 
++ ROUTED metal1 ( 25920 4200 ) M2_M1 
+  NEW metal2 ( 25920 4200 ) ( * 5100 ) ( 26160 * ) ( * 6900 ) ( 25200 * ) M3_M2 
+  NEW metal3 ( 25200 6900 ) ( * 6600 ) ( 24000 * ) M3_M2 
+  NEW metal2 ( 24000 6600 ) ( 23760 * ) ( * 6300 ) ( 23520 * ) ( * 5700 ) ( 23280 * ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 23280 4800 ) ( 22080 * ) M3_M2 
+  NEW metal2 ( 22080 4800 ) ( * 5100 ) ( 21600 * ) ( * 4500 ) M2_M1 
+  NEW metal1 ( 21600 4500 ) ( 21360 * ) 
+  NEW metal1 ( 27600 4200 ) M2_M1 
+  NEW metal2 ( 27600 4200 ) ( * 1800 ) M3_M2 
+  NEW metal3 ( 27600 1800 ) ( 26160 * ) M3_M2 
+  NEW metal2 ( 26160 1800 ) ( * 3300 ) ( 25920 * ) ( * 4200 ) ;
+- \adder.adder13.adder1.b\
+  ( _77_ Y ) 
+  ( _45_ A ) 
+  ( _44_ A ) 
++ ROUTED metal1 ( 19680 4200 ) ( 19440 * ) 
+  NEW metal1 ( 18480 1800 ) M2_M1 
+  NEW metal2 ( 18480 1800 ) ( * 1500 ) ( 18720 * ) ( * 1200 ) ( 19200 * ) ( * 2400 ) ( 19440 * ) ( * 4200 ) M2_M1 ;
+- \adder.adder13.a\
+  ( _69_ Y ) 
+  ( _45_ B ) 
+  ( _44_ B ) 
++ ROUTED metal1 ( 19920 4500 ) M2_M1 
+  NEW metal2 ( 19920 4500 ) ( * 4800 ) M3_M2 
+  NEW metal3 ( 19920 4800 ) ( 18480 * ) M3_M2 
+  NEW metal2 ( 18480 4800 ) ( * 4500 ) M2_M1 
+  NEW metal1 ( 18480 4500 ) ( 18000 * ) ( * 4200 ) 
+  NEW metal1 ( 15120 4500 ) M2_M1 
+  NEW metal2 ( 15120 4500 ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 15120 5400 ) ( 18480 * ) M3_M2 
+  NEW metal2 ( 18480 5400 ) ( * 4800 ) ;
+- \adder.adder13.adder1.sum\
+  ( _47_ B ) 
+  ( _46_ B ) 
+  ( _44_ Y ) 
++ ROUTED metal1 ( 17280 4500 ) M2_M1 
+  NEW metal2 ( 17280 4500 ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 17280 3600 ) ( 18480 * ) ( * 4200 ) ( 19440 * ) ( * 4500 ) M3_M2 
+  NEW metal2 ( 19440 4500 ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 19440 5400 ) ( 18960 * ) M3_M2 
+  NEW metal2 ( 18960 5400 ) ( 18720 * ) ( * 4500 ) M2_M1 
+  NEW metal1 ( 16800 4200 ) M2_M1 
+  NEW metal2 ( 16800 4200 ) ( * 3900 ) ( 17280 * ) ;
+- \adder.adder14.adder2.carry\
+  ( _52_ Y ) 
+  ( _48_ A ) 
++ ROUTED metal1 ( 28320 4500 ) M2_M1 
+  NEW metal2 ( 28320 4500 ) ( * 3900 ) ( 28560 * ) M2_M1 ;
+- \adder.adder14.adder1.carry\
+  ( _50_ Y ) 
+  ( _48_ B ) 
++ ROUTED metal1 ( 25680 4500 ) M2_M1 
+  NEW metal2 ( 25680 4500 ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 25680 6000 ) ( 28560 * ) M3_M2 
+  NEW metal2 ( 28560 6000 ) ( * 4200 ) M2_M1 
+  NEW metal1 ( 28560 4200 ) ( 28800 * ) ;
+- \adder.adder14.carry\
+  ( _53_ A ) 
+  ( _48_ Y ) 
++ ROUTED metal1 ( 30960 4200 ) M2_M1 
+  NEW metal2 ( 30960 4200 ) M3_M2 
+  NEW metal3 ( 30960 4200 ) ( 29280 * ) M3_M2 
+  NEW metal2 ( 29280 4200 ) ( * 4500 ) M2_M1 ;
+- \adder.adder14.adder1.b\
+  ( _82_ Y ) 
+  ( _50_ A ) 
+  ( _49_ A ) 
++ ROUTED metal1 ( 22320 4500 ) ( 23280 * ) ( * 4200 ) 
+  NEW metal1 ( 24960 4200 ) M2_M1 
+  NEW metal2 ( 24960 4200 ) M3_M2 
+  NEW metal3 ( 24960 4200 ) ( 23280 * ) M3_M2 
+  NEW metal1 ( 23280 4200 ) M2_M1 ;
+- \adder.adder14.a\
+  ( _74_ Y ) 
+  ( _50_ B ) 
+  ( _49_ B ) 
++ ROUTED metal1 ( 25200 4500 ) M2_M1 
+  NEW metal2 ( 25200 4500 ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 25200 3600 ) ( 24720 * ) M3_M2 
+  NEW metal2 ( 24720 3600 ) ( * 4200 ) M2_M1 
+  NEW metal1 ( 21120 1800 ) M2_M1 
+  NEW metal2 ( 21120 1800 ) ( * 5400 ) M3_M2 
+  NEW metal3 ( 21120 5400 ) ( 24720 * ) M3_M2 
+  NEW metal2 ( 24720 5400 ) ( * 4200 ) ;
+- \adder.adder14.adder1.sum\
+  ( _52_ B ) 
+  ( _51_ B ) 
+  ( _49_ Y ) 
++ ROUTED metal1 ( 27360 4200 ) M2_M1 
+  NEW metal2 ( 27360 4200 ) ( * 5100 ) ( 27120 * ) ( * 6600 ) M3_M2 
+  NEW metal3 ( 27120 6600 ) ( 25920 * ) M3_M2 
+  NEW metal2 ( 25920 6600 ) ( 25200 * ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 25200 6000 ) ( 24240 * ) M3_M2 
+  NEW metal2 ( 24240 6000 ) ( * 4500 ) M2_M1 
+  NEW metal1 ( 24240 4500 ) ( 24000 * ) 
+  NEW metal1 ( 27840 4500 ) M2_M1 
+  NEW metal2 ( 27840 4500 ) ( 27360 * ) ;
+- f[4]
+  ( PIN f[4] ) 
+  ( _4_ Y ) 
++ ROUTED metal2 ( 13920 -299 ) ( * 4800 ) ( 14160 * ) ( * 8100 ) M2_M1 ;
+- \adder.adder15.a\
+  ( _79_ Y ) 
+  ( _53_ B ) 
++ ROUTED metal1 ( 25680 1800 ) M2_M1 
+  NEW metal2 ( 25680 1800 ) ( * 600 ) M3_M2 
+  NEW metal3 ( 25680 600 ) ( 30480 * ) M3_M2 
+  NEW metal2 ( 30480 600 ) ( * 3000 ) M3_M2 
+  NEW metal3 ( 30480 3000 ) ( 29520 * ) M3_M2 
+  NEW metal2 ( 29520 3000 ) ( * 4200 ) M2_M1 ;
+- \adder.adder2.adder2.carry\
+  ( _58_ Y ) 
+  ( _54_ A ) 
++ ROUTED metal1 ( 29520 13800 ) M2_M1 
+  NEW metal2 ( 29520 13800 ) ( 29280 * ) ( * 14400 ) M2_M1 ;
+- \adder.adder2.adder1.carry\
+  ( _56_ Y ) 
+  ( _54_ B ) 
++ ROUTED metal1 ( 31200 13800 ) M2_M1 
+  NEW metal2 ( 31200 13800 ) ( * 13200 ) M3_M2 
+  NEW metal3 ( 31200 13200 ) ( 29040 * ) M3_M2 
+  NEW metal2 ( 29040 13200 ) ( * 14100 ) M2_M1 ;
+- \adder.adder2.adder1.sum\
+  ( _58_ B ) 
+  ( _57_ B ) 
+  ( _55_ Y ) 
++ ROUTED metal1 ( 30240 16200 ) ( * 16500 ) ( 31200 * ) 
+  NEW metal1 ( 30000 13800 ) M2_M1 
+  NEW metal2 ( 30000 13800 ) ( * 14400 ) ( 30240 * ) ( * 16200 ) M2_M1 ;
+- \adder.adder2.adder2.sum\
+  ( _88_ A ) 
+  ( _87_ A ) 
+  ( _57_ Y ) 
++ ROUTED metal1 ( 26880 16200 ) M2_M1 
+  NEW metal2 ( 26880 16200 ) M3_M2 
+  NEW metal3 ( 26880 16200 ) ( 29520 * ) ( * 16500 ) M3_M2 
+  NEW metal1 ( 29520 16500 ) M2_M1 
+  NEW metal1 ( 24480 16200 ) M2_M1 
+  NEW metal2 ( 24480 16200 ) M3_M2 
+  NEW metal3 ( 24480 16200 ) ( 26880 * ) ;
+- \adder.adder3.adder2.carry\
+  ( _63_ Y ) 
+  ( _59_ A ) 
++ ROUTED metal1 ( 21840 13800 ) M2_M1 
+  NEW metal2 ( 21840 13800 ) ( * 14400 ) ( 20640 * ) M2_M1 ;
+- \adder.adder3.adder1.carry\
+  ( _61_ Y ) 
+  ( _59_ B ) 
++ ROUTED metal1 ( 20880 13800 ) M2_M1 
+  NEW metal2 ( 20880 13800 ) ( 20640 * ) ( * 14100 ) M2_M1 
+  NEW metal1 ( 20640 14100 ) ( 20400 * ) ;
+- f[5]
+  ( PIN f[5] ) 
+  ( _5_ Y ) 
++ ROUTED metal2 ( 8640 -299 ) ( 8400 * ) ( * 2100 ) M2_M1 ;
+- \adder.adder3.adder1.sum\
+  ( _63_ B ) 
+  ( _62_ B ) 
+  ( _60_ Y ) 
++ ROUTED metal1 ( 26880 14100 ) M2_M1 
+  NEW metal2 ( 26880 14100 ) ( * 13200 ) M3_M2 
+  NEW metal3 ( 26880 13200 ) ( 24240 * ) M3_M2 
+  NEW metal2 ( 24240 13200 ) ( * 13800 ) M2_M1 
+  NEW metal1 ( 22320 13800 ) M2_M1 
+  NEW metal2 ( 22320 13800 ) ( * 12600 ) M3_M2 
+  NEW metal3 ( 22320 12600 ) ( 24240 * ) M3_M2 
+  NEW metal2 ( 24240 12600 ) ( * 13200 ) ;
+- \adder.adder4.adder2.carry\
+  ( _68_ Y ) 
+  ( _64_ A ) 
++ ROUTED metal1 ( 15600 10500 ) M2_M1 
+  NEW metal2 ( 15600 10500 ) ( * 12000 ) M3_M2 
+  NEW metal3 ( 15600 12000 ) ( 12720 * ) M3_M2 
+  NEW metal2 ( 12720 12000 ) ( * 9900 ) M2_M1 ;
+- \adder.adder4.adder1.carry\
+  ( _66_ Y ) 
+  ( _64_ B ) 
++ ROUTED metal1 ( 12960 10500 ) M2_M1 
+  NEW metal2 ( 12960 10500 ) ( * 10200 ) M3_M2 
+  NEW metal3 ( 12960 10200 ) ( 12480 * ) M3_M2 
+  NEW metal1 ( 12480 10200 ) M2_M1 ;
+- \adder.adder4.adder1.sum\
+  ( _68_ B ) 
+  ( _67_ B ) 
+  ( _65_ Y ) 
++ ROUTED metal1 ( 16080 10500 ) M2_M1 
+  NEW metal2 ( 16080 10500 ) ( * 11400 ) M3_M2 
+  NEW metal3 ( 16080 11400 ) ( 14640 * ) M3_M2 
+  NEW metal2 ( 14640 11400 ) ( * 10500 ) M2_M1 
+  NEW metal1 ( 16560 10200 ) M2_M1 
+  NEW metal2 ( 16560 10200 ) M3_M2 
+  NEW metal3 ( 16560 10200 ) ( 16080 * ) M3_M2 
+  NEW metal2 ( 16080 10200 ) ( * 10500 ) ;
+- \adder.adder5.adder2.carry\
+  ( _73_ Y ) 
+  ( _69_ A ) 
++ ROUTED metal1 ( 14160 4500 ) M2_M1 
+  NEW metal2 ( 14160 4500 ) ( 14400 * ) ( * 3900 ) M2_M1 ;
+- \adder.adder5.adder1.carry\
+  ( _71_ Y ) 
+  ( _69_ B ) 
++ ROUTED metal1 ( 13200 4500 ) M2_M1 
+  NEW metal2 ( 13200 4500 ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 13200 3600 ) ( 14640 * ) M3_M2 
+  NEW metal2 ( 14640 3600 ) ( * 4200 ) M2_M1 ;
+- f[6]
+  ( PIN f[6] ) 
+  ( _6_ Y ) 
++ ROUTED metal2 ( 11040 -299 ) ( * 600 ) M3_M2 
+  NEW metal3 ( 11040 600 ) ( 12000 * ) M3_M2 
+  NEW metal2 ( 12000 600 ) ( * 3600 ) M3_M2 
+  NEW metal3 ( 12000 3600 ) ( 10800 * ) M3_M2 
+  NEW metal2 ( 10800 3600 ) ( * 2100 ) M2_M1 ;
+- \adder.adder5.adder1.sum\
+  ( _73_ B ) 
+  ( _72_ B ) 
+  ( _70_ Y ) 
++ ROUTED metal1 ( 12000 8100 ) M2_M1 
+  NEW metal2 ( 12000 8100 ) ( 11760 * ) ( * 4500 ) M2_M1 
+  NEW metal1 ( 11760 4500 ) ( 11520 * ) 
+  NEW metal1 ( 13680 4500 ) M2_M1 
+  NEW metal2 ( 13680 4500 ) ( * 6000 ) M3_M2 
+  NEW metal3 ( 13680 6000 ) ( 11760 * ) M3_M2 ;
+- \adder.adder6.adder2.carry\
+  ( _78_ Y ) 
+  ( _74_ A ) 
++ ROUTED metal1 ( 20160 1800 ) M2_M1 
+  NEW metal2 ( 20160 1800 ) ( * 2400 ) ( 20400 * ) M2_M1 ;
+- \adder.adder6.adder1.carry\
+  ( _76_ Y ) 
+  ( _74_ B ) 
++ ROUTED metal1 ( 12240 1800 ) M2_M1 
+  NEW metal2 ( 12240 1800 ) ( * 1200 ) M3_M2 
+  NEW metal3 ( 12240 1200 ) ( 20400 * ) M3_M2 
+  NEW metal2 ( 20400 1200 ) ( * 2100 ) M2_M1 
+  NEW metal1 ( 20400 2100 ) ( 20640 * ) ;
+- \adder.adder6.adder1.sum\
+  ( _78_ B ) 
+  ( _77_ B ) 
+  ( _75_ Y ) 
++ ROUTED metal1 ( 17760 2100 ) M2_M1 
+  NEW metal2 ( 17760 2100 ) ( * 3000 ) M3_M2 
+  NEW metal3 ( 17760 3000 ) ( 11040 * ) M3_M2 
+  NEW metal2 ( 11040 3000 ) ( * 1800 ) ( 10800 * ) ( * 1500 ) ( 10560 * ) ( * 600 ) M3_M2 
+  NEW metal3 ( 10560 600 ) ( 9840 * ) M3_M2 
+  NEW metal2 ( 9840 600 ) ( * 1800 ) M2_M1 
+  NEW metal1 ( 19680 1800 ) M2_M1 
+  NEW metal2 ( 19680 1800 ) ( * 600 ) M3_M2 
+  NEW metal3 ( 19680 600 ) ( 18720 * ) M3_M2 
+  NEW metal2 ( 18720 600 ) ( 18480 * ) ( * 1200 ) ( 18240 * ) ( * 1800 ) M3_M2 
+  NEW metal3 ( 18240 1800 ) ( 17760 * ) M3_M2 
+  NEW metal2 ( 17760 1800 ) ( * 2100 ) ;
+- \adder.adder7.adder2.carry\
+  ( _83_ Y ) 
+  ( _79_ A ) 
++ ROUTED metal1 ( 23760 1800 ) M2_M1 
+  NEW metal2 ( 23760 1800 ) ( 24000 * ) ( * 600 ) M3_M2 
+  NEW metal3 ( 24000 600 ) ( 25200 * ) M3_M2 
+  NEW metal2 ( 25200 600 ) ( * 2400 ) ( 24960 * ) M2_M1 ;
+- \adder.adder7.adder1.carry\
+  ( _81_ Y ) 
+  ( _79_ B ) 
++ ROUTED metal1 ( 24720 1800 ) M2_M1 
+  NEW metal2 ( 24720 1800 ) ( 24960 * ) ( * 2100 ) M2_M1 
+  NEW metal1 ( 24960 2100 ) ( 25200 * ) ;
+- f[7]
+  ( PIN f[7] ) 
+  ( _7_ Y ) 
++ ROUTED metal3 ( 33120 4500 ) ( * 4200 ) ( 32400 * ) M3_M2 
+  NEW metal1 ( 32400 4200 ) M2_M1 ;
+- \adder.adder7.adder1.sum\
+  ( _83_ B ) 
+  ( _82_ B ) 
+  ( _80_ Y ) 
++ ROUTED metal1 ( 23280 1800 ) M2_M1 
+  NEW metal2 ( 23280 1800 ) ( * 1200 ) M3_M2 
+  NEW metal3 ( 23280 1200 ) ( 22320 * ) M3_M2 
+  NEW metal2 ( 22320 1200 ) ( 22080 * ) ( * 1800 ) M2_M1 
+  NEW metal1 ( 23040 4200 ) M2_M1 
+  NEW metal2 ( 23040 4200 ) ( * 2400 ) ( 23280 * ) ( * 1800 ) ;
+- \adder.adder8.carry\
+  ( _90_ A ) 
+  ( _89_ A ) 
+  ( _85_ Y ) 
++ ROUTED metal1 ( 23520 16200 ) M2_M1 
+  NEW metal2 ( 23520 16200 ) ( 23280 * ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 27120 16200 ) M2_M1 
+  NEW metal2 ( 27120 16200 ) ( * 16800 ) M3_M2 
+  NEW metal3 ( 27120 16800 ) ( 25920 * ) M3_M2 
+  NEW metal2 ( 25920 16800 ) ( * 17100 ) ( 24000 * ) ( * 16200 ) M3_M2 
+  NEW metal3 ( 24000 16200 ) ( 23520 * ) M3_M2 ;
+- \adder.adder9.adder2.carry\
+  ( _90_ Y ) 
+  ( _86_ A ) 
++ ROUTED metal1 ( 24240 16500 ) M2_M1 
+  NEW metal2 ( 24240 16500 ) ( * 15000 ) M3_M2 
+  NEW metal3 ( 24240 15000 ) ( 25200 * ) M3_M2 
+  NEW metal2 ( 25200 15000 ) ( * 14400 ) M2_M1 ;
+- \adder.adder9.adder1.carry\
+  ( _88_ Y ) 
+  ( _86_ B ) 
++ ROUTED metal1 ( 25200 16500 ) M2_M1 
+  NEW metal2 ( 25200 16500 ) ( * 15900 ) ( 25440 * ) ( * 14100 ) M2_M1 ;
+- \adder.adder9.adder1.sum\
+  ( _90_ B ) 
+  ( _89_ B ) 
+  ( _87_ Y ) 
++ ROUTED metal1 ( 23760 16500 ) M2_M1 
+  NEW metal2 ( 23760 16500 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 23760 17400 ) ( 26160 * ) M3_M2 
+  NEW metal2 ( 26160 17400 ) ( * 16500 ) M2_M1 
+  NEW metal1 ( 28560 16200 ) M2_M1 
+  NEW metal2 ( 28560 16200 ) ( * 17400 ) M3_M2 
+  NEW metal3 ( 28560 17400 ) ( 26640 * ) M3_M2 
+  NEW metal2 ( 26640 17400 ) ( 26160 * ) ;
+- f[8]
+  ( PIN f[8] ) 
+  ( _8_ Y ) 
++ ROUTED metal3 ( 33120 13500 ) ( * 13800 ) ( 30960 * ) M3_M2 
+  NEW metal2 ( 30960 13800 ) ( * 14100 ) M2_M1 ;
+- j[3]
+  ( PIN j[3] ) 
+  ( _94_ A ) 
+  ( _93_ A ) 
+  ( _92_ A ) 
+  ( _91_ A ) 
++ ROUTED metal1 ( 3600 10200 ) M2_M1 
+  NEW metal2 ( 3600 10200 ) ( * 11700 ) ( 3360 * ) ( * 14100 ) ( 3600 * ) ( * 16200 ) M2_M1 
+  NEW metal1 ( 240 10200 ) M2_M1 
+  NEW metal2 ( 240 10200 ) M3_M2 
+  NEW metal3 ( 240 10200 ) ( 720 * ) M3_M2 
+  NEW metal2 ( 720 10200 ) ( * 10800 ) ( 960 * ) ( * 12000 ) M3_M2 
+  NEW metal3 ( 960 12000 ) ( 3120 * ) M3_M2 
+  NEW metal2 ( 3120 12000 ) ( 3360 * ) 
+  NEW metal1 ( 240 8100 ) M2_M1 
+  NEW metal2 ( 240 8100 ) ( * 10200 ) 
+  NEW metal3 ( -479 8400 ) ( * 9000 ) ( 240 * ) M3_M2 ;
+- j[0]
+  ( PIN j[0] ) 
+  ( _98_ B ) 
+  ( _97_ B ) 
+  ( _96_ B ) 
+  ( _95_ B ) 
++ ROUTED metal1 ( 6960 19800 ) M2_M1 
+  NEW metal2 ( 6960 19800 ) ( * 18600 ) M3_M2 
+  NEW metal3 ( 6960 18600 ) ( 6000 * ) M3_M2 
+  NEW metal2 ( 6000 18600 ) ( * 18000 ) M3_M2 
+  NEW metal3 ( 6000 18000 ) ( 4080 * ) M3_M2 
+  NEW metal2 ( 4080 18000 ) ( * 16500 ) M2_M1 
+  NEW metal2 ( 6960 21900 ) ( * 19800 ) 
+  NEW metal1 ( 7680 16500 ) M2_M1 
+  NEW metal2 ( 7680 16500 ) ( * 18600 ) M3_M2 
+  NEW metal3 ( 7680 18600 ) ( 6960 * ) 
+  NEW metal1 ( 7680 13800 ) M2_M1 
+  NEW metal2 ( 7680 13800 ) ( * 16500 ) ;
+END NETS
+
+SPECIALNETS 4 ;
+- \accmulator.buffer5.q\
++ ROUTED metal3 180 ( 16560 4800 ) ( 16800 * ) ;
+
+- gnd
++ FIXED metal1 180 ( 32280 21150 ) ( 33150 * )
+  NEW metal1 180 ( 32280 15150 ) ( 33150 * )
+  NEW metal1 180 ( 32280 9150 ) ( 33150 * )
+  NEW metal1 180 ( 32280 3150 ) ( 33150 * )
+  NEW metal1 960 ( 33150 60 ) ( * 21240 ) ;
+- vdd
++ FIXED metal1 180 ( -510 18150 ) ( 360 * )
+  NEW metal1 180 ( -510 12150 ) ( 360 * )
+  NEW metal1 180 ( -510 6150 ) ( 360 * )
+  NEW metal1 180 ( -510 150 ) ( 360 * )
+  NEW metal1 960 ( -510 60 ) ( * 21240 ) ;
+END SPECIALNETS
+
+END DESIGN
