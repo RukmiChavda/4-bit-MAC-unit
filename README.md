@@ -49,7 +49,9 @@ One noticeable point is that Qflow is run on the Ubuntu operating system. It is 
 
 
 # Log Analysis 
+
 ## Synthesis
+```   
           === MAC_4_bit ===
 
    Number of wires:			151
@@ -65,9 +67,10 @@ One noticeable point is that Qflow is run on the Ubuntu operating system. It is 
    DFFSR                           			9
    OR2X2                          			22
    XOR2X1                         			50
-
+```
 
 ## Placement 
+```
 decongest.tcl:
 Fixed density planning, density = 0.75
 Number of cells = 198, total width = 276240
@@ -83,8 +86,10 @@ Width of body ties = 0
 ##  Static timing analysis 
 Computed maximum clock frequency (zero margin) = 247.072 MHz
 ----------------------------------------------------------------------------------
+```
 
 # Routing 
+```
 ----------------------------------------------
 Progress: Stage 1 total routes completed: 405
 Failed net routes: 4
@@ -107,13 +112,16 @@ but qrouter wants to write 211 nets and specialnets.
 ----------------------------------------------
 Final: No failed routes!
 ----------------------------------------------
-
+```
 
 ## Post-Route STA
+```
 Computed maximum clock frequency (zero margin) = 245.412 MHz
 ---------------------------------------------------------------------------------
+```
 
 ## DRC
+```
 Input style lambda=0.30(p): scaleFactor=30, multiplier=1
 
 4 Magic internal units = 1 Lambda
@@ -122,7 +130,7 @@ File <MAC_4_bit.mag> is already locked by pid 4833.  Opening read-only.
 Scaled magic input cell MAC_4_bit geometry by factor of 2
 Processing timestamp mismatches: FILL, XOR2X1, AND2X2, OR2X2, BUFX2, DFFSR.
 drc = 0
-
+```
 
 ## LVS
 ```
