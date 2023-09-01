@@ -20,19 +20,22 @@ Wallace tree multipliers are very popular as multipliers because of their speed 
 formed and adjacent rows are grouped into either a three-row group or a two-row group. The full adder or half adder is applied according to the number of bits in the group. And if there is only one bit, then it is not processed at the present stage but passed to the next stage. This reduction process is repeated until the number of rows is reduced to two. Any carry-propagating adder is used for the addition of the remaining two rows to generate the product. 
 
 ![Diagram 4](https://github.com/RukmiChavda/4-bit-MAC-unit/assets/82014536/07cf8ed1-05ff-472a-9c98-5d7cef3ca1f4)
+![1 wallance tree multipier](https://github.com/RukmiChavda/4-bit-MAC-unit/assets/82014536/a0049815-7a4a-454c-b44a-61953982dd5d)
 
 # Carry save adder
 A carry-save adder is designed to compute the sum of three or more n-bit binary numbers and it differs from other digital adders in a way that results in two outputs namely sum and carry which are a sequence of partial sum bits and a sequence of carry bits respectively. here 4-bit conventional CSA shown in figure 1.5 has 2-half adders and 6-full adders. This structure consists of a ripple carry adder (RCA) in the final stage which yields a large carry propagation delay. 
 
 ![Diagram 2](https://github.com/RukmiChavda/4-bit-MAC-unit/assets/82014536/7f978d12-eb15-4a6c-84d1-12be4d8b9dff)
+![3 adder](https://github.com/RukmiChavda/4-bit-MAC-unit/assets/82014536/f6022014-52a6-493c-ad66-7bf0be170a20)
 
-#Accumulator 
+# Accumulator 
 The accumulator is a register that stores the sum of products. Parallel In Parallel Out(PIPO) shift registers are widely used as accumulators as they are fast and output is given within a single clock pulse. To develop a 9-bit PIPO shift register it uses 9  D flip-flops. In the design D flip-flop works at the positive edge of the clock pulse and reset occurs at the negative edge of the clock pulse. 
 
 ![Diagram 3](https://github.com/RukmiChavda/4-bit-MAC-unit/assets/82014536/1e335f4d-1fe1-46c7-b7cd-63cac7933252)
+![2 buffer](https://github.com/RukmiChavda/4-bit-MAC-unit/assets/82014536/8f123812-5e02-4553-9f07-e95e8e3998d5)
+
 
 # Code Structure 
-
 ![Diagram 8](https://github.com/RukmiChavda/4-bit-MAC-unit/assets/82014536/18501ee1-6f7c-4b0d-a0e7-118b3bfa6bd6)
 
 # Introduction to Qflow
@@ -44,5 +47,100 @@ One noticeable point is that Qflow is run on the Ubuntu operating system. It is 
 
 ![Qflow2](https://github.com/RukmiChavda/4-bit-MAC-unit/assets/82014536/eafc62ac-baf5-4e3d-9858-0de4d28a5497)
 
+
+# Log Analysis 
+# Synthesis
+          === MAC_4_bit ===
+
+   Number of wires:			151
+   Number of wire bits:			165
+   Number of public wires:			151
+   Number of public wire bits:		165
+   Number of memories:			0
+   Number of memory bits:			0
+   Number of processes:			0
+   Number of cells:			155
+   AND2X2				65
+   BUFX2                           			9
+   DFFSR                           			9
+   OR2X2                          			22
+   XOR2X1                         			50
+
+
+# Placement 
+decongest.tcl:
+Fixed density planning, density = 0.75
+Number of cells = 198, total width = 276240
+Width of fill = 92079
+Width of decap = 0
+Width of antenna = 0
+Width of body ties = 0
+
+***********************************************
+*ACTUAL* FINAL NUMBER OF ROUTING TRACKS: 44
+***********************************************
+
+#  Static timing analysis 
+Computed maximum clock frequency (zero margin) = 247.072 MHz
+----------------------------------------------------------------------------------
+
+# Routing 
+----------------------------------------------
+Progress: Stage 1 total routes completed: 405
+Failed net routes: 4
+----------------------------------------------
+----------------------------------------------
+Progress: Stage 2 total routes completed: 425
+No failed routes!
+----------------------------------------------
+----------------------------------------------
+Progress: Stage 3 total routes completed: 806
+No failed routes!
+----------------------------------------------
+----------------------------------------------
+Progress: Stage 3 total routes completed: 1185
+No failed routes!
+----------------------------------------------
+*** Writing DEF file MAC_4_bit_route.def
+emit_routes():  DEF file has 211 nets and 2 specialnets.
+but qrouter wants to write 211 nets and specialnets.
+----------------------------------------------
+Final: No failed routes!
+----------------------------------------------
+
+
+# Post-Route STA
+Computed maximum clock frequency (zero margin) = 245.412 MHz
+---------------------------------------------------------------------------------
+
+# DRC
+Input style lambda=0.30(p): scaleFactor=30, multiplier=1
+
+4 Magic internal units = 1 Lambda
+
+File <MAC_4_bit.mag> is already locked by pid 4833.  Opening read-only.
+Scaled magic input cell MAC_4_bit geometry by factor of 2
+Processing timestamp mismatches: FILL, XOR2X1, AND2X2, OR2X2, BUFX2, DFFSR.
+drc = 0
+
+
+# LVS
+Circuit MAC_4_bit contains 198 device instances.
+  Class: OR2X2                 instances:  27
+  Class: XOR2X1                instances:  70
+  Class: BUFX2                 instances:  13
+  Class: DFFSR                 instances:   9
+  Class: AND2X2                instances:  79
+Circuit contains 211 nets.
+
+Circuit 1 contains 198 devices, Circuit 2 contains 198 devices.
+Circuit 1 contains 211 nets,    Circuit 2 contains 211 nets.
+
+Netlists match uniquely.
+Result: Circuits match uniquely.
+Logging to file "comp.out" disabled
+LVS Done.
+/usr/local/share/qflow/scripts/count_lvs.py
+LVS reports no net, device, pin, or property mismatches.
 
 # 
