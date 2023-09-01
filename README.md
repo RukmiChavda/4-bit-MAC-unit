@@ -49,7 +49,7 @@ One noticeable point is that Qflow is run on the Ubuntu operating system. It is 
 
 
 # Log Analysis 
-# Synthesis
+## Synthesis
           === MAC_4_bit ===
 
    Number of wires:			151
@@ -67,7 +67,7 @@ One noticeable point is that Qflow is run on the Ubuntu operating system. It is 
    XOR2X1                         			50
 
 
-# Placement 
+## Placement 
 decongest.tcl:
 Fixed density planning, density = 0.75
 Number of cells = 198, total width = 276240
@@ -80,7 +80,7 @@ Width of body ties = 0
 *ACTUAL* FINAL NUMBER OF ROUTING TRACKS: 44
 ***********************************************
 
-#  Static timing analysis 
+##  Static timing analysis 
 Computed maximum clock frequency (zero margin) = 247.072 MHz
 ----------------------------------------------------------------------------------
 
@@ -109,11 +109,11 @@ Final: No failed routes!
 ----------------------------------------------
 
 
-# Post-Route STA
+## Post-Route STA
 Computed maximum clock frequency (zero margin) = 245.412 MHz
 ---------------------------------------------------------------------------------
 
-# DRC
+## DRC
 Input style lambda=0.30(p): scaleFactor=30, multiplier=1
 
 4 Magic internal units = 1 Lambda
@@ -124,7 +124,8 @@ Processing timestamp mismatches: FILL, XOR2X1, AND2X2, OR2X2, BUFX2, DFFSR.
 drc = 0
 
 
-# LVS
+## LVS
+```
 Circuit MAC_4_bit contains 198 device instances.
   Class: OR2X2                 instances:  27
   Class: XOR2X1                instances:  70
@@ -142,5 +143,4 @@ Logging to file "comp.out" disabled
 LVS Done.
 /usr/local/share/qflow/scripts/count_lvs.py
 LVS reports no net, device, pin, or property mismatches.
-
-# 
+```
